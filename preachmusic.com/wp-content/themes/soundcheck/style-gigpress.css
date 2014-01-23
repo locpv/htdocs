@@ -1,0 +1,85 @@
+/*	GigPress Plugin Styles (** Output by less/gigpress.less file **)
+/*-----------------------------------------------------------------------------------*/
+body .gigpress-table {
+  width: 100%;
+  margin: 0 0 10px;
+  border-top: none;
+}
+body .gigpress-table th {
+  padding: 6px 10px;
+  border-bottom: none;
+}
+body .gigpress-table .gigpress-header {
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #3f434a;
+}
+body .gigpress-table .gigpress-heading {
+  padding-top: 20px;
+  text-align: center;
+  font-style: italic;
+  border-bottom: 1px solid #3f434a;
+  background: #252a31;
+}
+body .gigpress-table .gigpress-tour td {
+  background: none;
+}
+body .gigpress-table .gigpress-row {
+  color: #bec4cc;
+}
+body .gigpress-table .gigpress-row td {
+  vertical-align: top;
+  border: none;
+}
+body .gigpress-table .gigpress-row .gigpress-date {
+  width: 65px;
+  color: #ffffff;
+  font-weight: bold;
+}
+body .gigpress-table .gigpress-row .gigpress-date abbr {
+  border: none;
+  cursor: default;
+}
+body .gigpress-table .gigpress-row .gigpress-city {
+  font-weight: bold;
+}
+body .gigpress-table .gigpress-info {
+  display: none;
+}
+body .gigpress-table .gigpress-info td {
+  border: none;
+  color: #ffffff;
+}
+body .gigpress-table .vevent {
+  border-top: 1px solid #252a31;
+}
+body .gigpress-table .vevent:nth-child(odd) {
+  background: #3f434a;
+}
+body .gigpress-table .gigpress-info-label {
+  color: #bec4cc;
+  font-weight: bold;
+}
+body .gigpress-table .gigpress-info-item {
+  display: block;
+  float: left;
+  width: 33%;
+  margin-bottom: 5px;
+}
+body .gigpress-table .gigpress-calendar-links {
+  padding: 10px;
+  font-size: 12px;
+  left: 15px;
+  top: -28px;
+  background: none;
+}
+body .gigpress-table .gigpress-calendar-links-inner {
+  border: none;
+  background: #000;
+  background: rgba(0, 0, 0, 0.8);
+}
+body #entry-container .gigpress-subscribe {
+  position: absolute;
+  top: 11px;
+  right: 20px;
+}

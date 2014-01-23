@@ -1,0 +1,120 @@
+Version 1.7.2 (12.12.2011)
+Updated: Changed the hook the scripts and styles were called on to wp_enqueue_scripts() per http://wpdevel.wordpress.com/2011/12/12/use-wp_enqueue_scripts-not-wp_print_styles-to-enqueue-scripts-and-styles-for-the-frontend/
+Updated: Fixed undefined variable in includes/audio-player-custom.php
+
+
+Version 1.7.1 (12.9.2011)
+UPDATED: Option info text
+UPDATED: Removed the Audio Player Plugin player for tracks that did not have audio set.
+UPDATED: Updated/cleaned output code of various content on discography page.
+UPDATED: Made little play icon on custom audio player clickable
+UPDATED: Added small "note" icon to single discography tracks that have audio to indicate that the track has an audio file that can be played.
+FIXED: Hero slider timeout option in theme options was not working if set to "0" or left blank. It should not auto rotate if one of these to options is true.
+
+
+Version 1.7 (11.23.2011)
+ADDED: Options to control animation, speed, and timeout of slide via Theme Options.
+ADDED: Options to Auto Play the album. I have limited this to the home page only for users sake. Site owner can customize the files if want this otherwise.
+ADDED: Option to show/hide all audio previews at once on single discography page. 
+FIXED: Audio previews not showing when click and Audio Player plugin installed for some users.
+FIXED: IE8 Custom background color of Primary Navigation bar (bottom-bofder) and the Top Bar (top-border) were updated in functions/theme-styles.php. The colors were not changing because of an rgba CSS color set by the theme, in which IE8, once again, craps its pants over.
+UPDATED: updated primary nav styles to highlight the current menu item as well as the current page
+FILES ADDED: theme-styles.php was added to functions folder. The ti_custom_theme_styles() in functions.php was moved to this new file 
+
+Version 1.6.5 (11.17.2011)
+UPDATED: custom styles for backgrounds using primary_3 were not working in IE8 and below. Turns out IE was crapping it's self over a nth-child(odd) call in ti_custom_theme_styles(). Removed this. 
+
+Version 1.6.4 (11.13.2011)
+UPDATED: Homepage sidebar container to have a width and hidden overflow to eliminate horizontal scroll.
+FIXED: removed play() in jquery.jplayer.playlist.js 
+
+Version 1.6.3 (11.10.2011)
+REMOVED: TinyMCE editor buttons
+UPDATED: Text color for form drop downs
+UPDATED: Audio player notification text form "Loading Music…" to "Loading audio…"
+UPDATED: Removed featured image from being included in gallery. 
+UPDATED: Comment label text to be translatable
+ADDED: Added auto-play code to js/jquery.playlist.js so that people if wanted, could easy make things autoplay by changing to TRUE
+
+Version 1.6.2 (10.24.2011)
+FIXED: Gallery entry format not having a columns value defined for single pages resulting in a warning (includes/entry-format.php)
+
+Version 1.6.1 (10.22.2011)
+FIXED: Bandcamp url link to use . instead of / in url structure
+ADDED: Versioning function to help with cacheing of JS and CSS files in both the admin and new versions.
+
+Version 1.6.0 (10.19.2011)
+UPDATED Header to use language_attributes() correctly (header.php)
+UPDATED Prefixes now use ti_ instead of c7s_ (all)
+UPDATED Localization to use 'theme-it' instead of 'framework'
+UPDATED Social networks icons function slimmed down
+UPDATED Condensed JS and CSS files and inclusions
+FILES MOVED CSS files are in root and prefixed with style-*.css
+
+Version 1.5.2 (9.27.2011)
+FIXED: Small CSS fix for iFrames, Embeds, Objects made while testing last update :(
+
+Version 1.5.1 (9.27.2011)
+FIXED: Added the height size for media embeds (includes/entry-format.php)
+FIXED: New localize script was including a file that made the admin unable to create a new file or edit one (functions.php)
+
+Version 1.5.0 (9.24.2011)
+REMOVED: BxSlider functionality is gone. Too many issues all around, especially with Safari.
+ADDED: New Vimeo and YouTube API Functionality
+UPDATED: Media Embed function updated to incorporate Vimeo and YouTube API functionality
+UPDATED: Audio Player now is populated via JSON and not js printed out by PHP
+
+Version 1.4.2 (9.6.2011)
+FIXED: Random bold text in Safari. Seems to be caused by bxSlider script and relative positioning of elements… even ones not related to bxSlider. Very strange. I will be finding a replacement script for bxSlider down the road.
+REMOVED: Superfish dropdown menus. We're not playing well with bxSlider script. Took out for now, add back when I find another solution for bxSlider.
+
+Version 1.4.1 (9.12.2011)
+FIXED: image carousel arrows disappearing on hover (style.css)
+FIXED: bad markup on album links of audio player(sidebar-featured.php)
+
+Version 1.4 (9.11.2011)
+ADDED: Started support for responsive layout option. Currently, we're just showing album and hero controls for tablets and smaller. (options/options-customization.php, css/responsive.css, functions.php)
+ADDED: Made album player artwork, artist name, and album name link to album post page (sidebar-featured.php)
+ADDED: Support for Bandcamp and SoundCloud media icons (options/content.php, images/icons-media.png, footer.php)
+UPDATED: Gallery styles for Firefox (styles.css/less)
+UPDATED: Gallery styles for galleries inserted inside post content and not via Gallery post format option (style.css/less)
+UPDATED: Hero banner width being cropped on mobile devices. This will switch later on when I add to responsive design.
+UPDATED: Made button icons/controls for hero slider, audio player, and entry thumbnails show and hide via CSS rather than using jQuery (style.css/less, script.js)
+FIXED: Facebook send button is now fixed, meaning, it's now a "Like" button, which it should have been in the first place. (admin/widgets/social-sharing.php, style.css/less)
+FIXED: Fixed special characters in audio player (includes/jplayer-playlist.php)
+
+
+Version 1.3 (8.22.2011)
+ADDED: Option to change/update cache time of Latest Tweets widget (admin/widgets/latest-tweet.php, functions.php)
+UPDATED: Latest Tweet widget now uses twitter api and caching instead of writing a file to cache folder (admin/widgets/latest-tweet.php, functions.php)
+UPDATED: Added some more elements to the _c7s_custom_theme_styles() function (functions.php)
+REMOVED: Unused imagePreview() js call (js/script.js)
+REMOVED: Unused jquery.jScrollPane.js and mousewheel.js files (js)
+
+Version 1.2 (8.22.2011)
+ADDED: Options Framework Plugin admin notice (admin.php)
+ADDED: Color option for Text based logo and site description (options/options-customization.php)
+ADDED: Chrome Frame google script for IE6 & IE7 (footer.php)
+FIXED: Comments reply function wasn't working properly. (functions.php)
+FIXED: jQuery was not being included properly (functions.php)
+FIXED: Oswald font was not being registered (functions.php)
+FIXED: Featured Category widget thumbnails calling wrong thumb size (admin/widgets/featured-category.php)
+FIXED: Featured Category widget "View All Posts" button not working. Added an option to default to a page if a category is not set. (admin/widgets/featured-category.php)
+FIXED: Copyright p tag in footer was not properly closed (footer.php)
+UPDATED: Minor grammar updates in admin settings and options.
+UPDATED: Changed "discography" to "album" for the slug name to help with url recognition and SEO (admin/post-types/discography.php)
+UPDATED: Allowed discography page template to show all albums and not limit it to the number of allowed posts per page set by theme (template-discography.php)
+
+Version 1.1 (8.12.2011)
+FIXED: minor bugs, undocumented, mysterious.
+
+Version 1.0 (8.11.2011)
+NEW: Initial Release
+
+-- Terms --
+NEW: Something added
+FIXED: Something fixed because it was broke
+REMOVED: Something removed for one reason or another
+UPDATED: Something modified but has same or better result
+FILES ADDED: Files added to theme directory
+FILES RENAMED: Files in theme directory renamed to something else

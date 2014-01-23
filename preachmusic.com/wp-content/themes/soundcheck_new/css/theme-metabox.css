@@ -1,0 +1,10 @@
+.soundcheck-meta-field label{
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.soundcheck-meta-field input[type="text"] {
+    width: 100%;
+    margin-bottom: 3px;
+}

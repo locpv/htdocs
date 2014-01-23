@@ -1,0 +1,106 @@
+.button {
+  color: #bec4cc;
+  font-size: 12px;
+  padding: 4px 10px;
+  background-color: #3f434a;
+  text-transform: uppercase;
+}
+.button:hover {
+  color: #ffffff;
+  border: none !important;
+}
+.button.full-width {
+  width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: center;
+}
+.gform_edit_link a,
+.gf_progressbar_wrapper,
+.gform_title,
+.gsection_title {
+  font-family: 'Oswald', "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+/* WIDGET */
+body .widget .gform_footer {
+  clear: both;
+  padding: 12px 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+body .gform_widget .gform_wrapper {
+  max-width: 100%;
+  margin: 0;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  background: url(../images/bg-gradient.png) 0 0 repeat-x;
+}
+body .gform_widget .gform_description {
+  margin-bottom: 10px;
+}
+body .gform_widget .gform_heading,
+body .gform_widget .gform_body,
+body .gform_widget .validation_error {
+  padding: 0 15px;
+  margin: 0;
+}
+body .gform_widget .gfield_error {
+  text-shadow: none;
+}
+body .gform_widget .gfield_error input {
+  border: 1px solid #790000;
+}
+body .gform_widget .gsection .gfield_label,
+body .gform_widget h2.gsection_title,
+body .gform_widget h3.gform_title {
+  font-size: 16px;
+}
+body .gform_widget .gform_body {
+  margin: 15px 0;
+}
+body .gform_widget .ginput_complex .ginput_left,
+body .gform_widget .ginput_complex .ginput_right {
+  float: left;
+}
+body .gform_widget textarea,
+body .gform_widget input[type=text],
+body .gform_widget input[type=url],
+body .gform_widget input[type=email],
+body .gform_widget input[type=phone],
+body .gform_widget input[type=number],
+body .gform_widget input[type=file],
+body .gform_widget input[type=password] {
+  width: 100% !important;
+}
+body .gform_widget .gform_footer {
+  height: 50px;
+  overflow: hidden;
+  margin: 0 !important;
+}
+/* FORM ELEMENTS
+----------------------------------------------- */
+body .gform_wrapper .percentbar_blue {
+  background: #3f434a repeat-x;
+}
+body .gform_wrapper .gfield_label {
+  color: #bec4cc;
+}
+body .gform_wrapper .gfield {
+  margin: 10px 0;
+  border: none;
+}
+body .gform_wrapper textarea,
+body .gform_wrapper input[type=text],
+body .gform_wrapper input[type=url],
+body .gform_wrapper input[type=email],
+body .gform_wrapper input[type=phone],
+body .gform_wrapper input[type=number],
+body .gform_wrapper input[type=file],
+body .gform_wrapper input[type=password] {
+  font-size: 13px;
+  padding: 4px 10px;
+}
+body .gform_wrapper select {
+  font-size: 16px;
+}

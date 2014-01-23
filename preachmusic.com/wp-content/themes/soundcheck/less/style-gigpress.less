@@ -1,0 +1,116 @@
+/*	GigPress Plugin Styles (** Output by less/gigpress.less file **)
+/*-----------------------------------------------------------------------------------*/
+
+@import url("variables.less");
+@import url("classes.less");
+
+body {
+	.gigpress-table {
+		width: 100%;
+		margin: 0 0 10px;
+		border-top: none;
+		
+		th {
+			padding: 6px 10px;
+			border-bottom: none;
+		}
+		
+		.gigpress-header {
+			font-size: 14px;
+			font-weight: bold;
+			border-bottom: 1px solid @primary_2;
+		}
+		
+		.gigpress-heading {	
+			padding-top: 20px;
+			text-align: center;
+			font-style: italic;
+			border-bottom: 1px solid @primary_2;
+			background: @primary_3;
+		}
+		
+		.gigpress-tour {
+			td {
+				background: none;
+			}
+		}
+		
+		.gigpress-row {
+			color: @primary_1;
+
+			td {
+				vertical-align: top;
+				border: none;
+			}
+			
+			.gigpress-date {
+				width: 65px;
+				color: @text_color;
+				font-weight: bold;
+				
+				abbr {
+					border: none;
+					cursor: default;
+				}
+			}
+			
+			.gigpress-city {
+				font-weight: bold;
+			}
+		}
+		
+		.gigpress-info {
+			display: none;
+			td {
+				border: none;
+				color: @text_color;
+			}
+		}
+		
+		.vevent {
+			border-top: 1px solid @primary_3;
+			
+			&:nth-child(odd) {
+				background: @primary_2;
+			}
+		}
+		
+		.gigpress-info-label {
+			color: @primary_1;
+			font-weight: bold;
+		}
+		
+		.gigpress-info-trigger {
+			
+		}
+		
+		.gigpress-info-item {
+			display: block;
+			float: left;
+			width: 33%;
+			margin-bottom: 5px;
+		}
+		
+		.gigpress-calendar-links {
+			padding: 10px;
+			font-size: 12px;
+			left: 15px;
+			top: -28px;
+			background: none;
+		}
+		
+		.gigpress-calendar-links-inner {
+			border: none;
+			background: #000;
+			background: rgba(0,0,0,0.8);
+		}
+	}
+	
+	#entry-container {
+		.gigpress-subscribe {
+			position: absolute;
+			top: 11px;
+			right: 20px;
+		}
+	}
+}

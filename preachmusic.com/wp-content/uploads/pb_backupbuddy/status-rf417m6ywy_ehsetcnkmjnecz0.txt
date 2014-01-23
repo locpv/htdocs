@@ -1,0 +1,21 @@
+1366977453|~|0.32|~|3.88|~|details|~|--- New PHP process.
+1366977453|~|0.33|~|3.88|~|details|~|Attempted to increase maximum PHP runtime. Original: 30; New: 7200.
+1366977453|~|0.34|~|3.88|~|details|~|Set memory limit to 256M. Previous value < 256M.
+1366977453|~|0.34|~|3.88|~|details|~|Original PHP memory limit: 128; New: 256M.
+1366977453|~|0.35|~|3.88|~|message|~|Processing cron step for serial `rf417m6ywy`...
+1366977453|~|0.36|~|4.08|~|details|~|Running process_backup() for serial `rf417m6ywy`.
+1366977453|~|0.38|~|4.28|~|details|~|Found next step to run: `post_backup`.
+1366977453|~|0.39|~|4.33|~|details|~|Peak memory usage: 4.329 MB
+1366977453|~|0.40|~|4.33|~|details|~|-----
+1366977453|~|0.42|~|4.33|~|details|~|Starting step function `post_backup` with args ``. Attempt #1.
+1366977453|~|0.43|~|4.33|~|message|~|Cleaning up after backup.
+1366977453|~|0.43|~|4.33|~|details|~|Removing temp data directory.
+1366977453|~|0.45|~|4.33|~|details|~|Trimming old archives (if needed).
+1366977453|~|0.47|~|4.33|~|details|~|Trimmed 0 old archives based on settings archive limits.
+1366977453|~|0.49|~|4.33|~|details|~|Final ZIP file size: 583 KB
+1366977453|~|0.50|~|4.33|~|action|~|archive_size^583 KB
+1366977453|~|0.51|~|4.33|~|message|~|Finished cleaning up.
+1366977453|~|0.52|~|4.33|~|action|~|archive_url^backup-preachmusic_com-2013_04_26-db-rf417m6ywy.zip
+1366977453|~|0.54|~|4.33|~|details|~|Finished function `post_backup`. Peak memory usage: 4.33 MB
+1366977453|~|0.55|~|4.33|~|details|~|-----
+1366977453|~|0.57|~|4.33|~|details|~|No more backup steps remain. Finishing...

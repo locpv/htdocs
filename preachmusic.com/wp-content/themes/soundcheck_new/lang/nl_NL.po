@@ -1,0 +1,1677 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soundcheck BonTon v2.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-12-27 10:42:44+0000\n"
+"Last-Translator: haicu <info@haicu.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: attachment.php:30
+#: functions.php:1548
+#: includes/widgets/latest-tweets.php:171
+#: post-content.php:33
+#: post-image.php:5
+#, php-format
+#@ soundcheck
+msgid "%1$s"
+msgstr "%1$s"
+
+#: attachment.php:46
+#@ soundcheck
+msgid "Next &rarr;"
+msgstr "Volgende &rarr;"
+
+#: attachment.php:47
+#@ soundcheck
+msgid "Return to gallery"
+msgstr "Terug naar galerij"
+
+#: attachment.php:48
+#@ soundcheck
+msgid "&larr; Previous"
+msgstr "&larr; Vorige"
+
+#: comments.php:11
+#@ soundcheck
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "This post is password protected. Enter the password to view comments."
+
+#: comments.php:26
+#: comments.php:27
+#@ soundcheck
+msgid "Leave A Comment &rarr;"
+msgstr "Reageer &rarr;"
+
+#: comments.php:30
+#@ soundcheck
+msgid "Comments"
+msgstr "Reacties"
+
+#: comments.php:46
+#, php-format
+#@ soundcheck
+msgid "<p class=\"pages\">Page <span class=\"current\">%1s</span> <span class=\"of\">of</span> <span class=\"total\">%2s</span></p>"
+msgstr "<p class=\"pages\">Pagina <span class=\"current\">%1s</span> <span class=\"of\">of</span> <span class=\"total\">%2s</span></p>"
+
+#: comments.php:74
+#@ soundcheck
+msgid "Trackbacks &amp; Pingbacks"
+msgstr ""
+
+#: comments.php:88
+#@ soundcheck
+msgid "No incoming links found yet."
+msgstr "Nog geen inkomende links gevonden"
+
+#: content-archive.php:4
+#@ soundcheck
+msgid "Sorry, but what you’re searching for could not be found. Maybe try one of the links below."
+msgstr "Sorry, niet gevonden wat je zocht. Probeer één van de links hieronder."
+
+#: content-archive.php:7
+#@ soundcheck
+msgid "Last 30 Posts"
+msgstr "Laatste 30 berichten"
+
+#: content-archive.php:22
+#@ soundcheck
+msgid "Archives by Month:"
+msgstr "Archieven per maand"
+
+#: content-archive.php:27
+#@ soundcheck
+msgid "Archives by Subject:"
+msgstr "Archieven per onderwerp:"
+
+#: content-archive.php:32
+#@ soundcheck
+msgid "Maybe a Page:"
+msgstr "Misschien een pagina:"
+
+#: content-carousel.php:52
+#@ soundcheck
+msgid "Featured Image Carousel"
+msgstr "Uitgelicht beeld carousel"
+
+#: content-carousel.php:53
+#@ soundcheck
+msgid "The featured image carousel requires at least one post with a featured image."
+msgstr "De carousel met uitgelichte beelden heeft minstens 1 bericht met een uitgelicht beeld nodig"
+
+#: content-events.php:22
+#@ soundcheck
+msgid "View Details"
+msgstr "Bekijk details"
+
+#: content-events.php:27
+#@ soundcheck
+msgid "(Edit)"
+msgstr "(Bewerk)"
+
+#: content-hero-slide.php:32
+#@ soundcheck
+msgid "Edit Slide"
+msgstr "Bewerk slide"
+
+#: content-hero.php:14
+#: includes/shortcodes/audio-player.php:114
+#@ soundcheck
+msgid "Previous"
+msgstr "Vorige"
+
+#: content-hero.php:15
+#: includes/shortcodes/audio-player.php:123
+#@ soundcheck
+msgid "Next"
+msgstr "Volgende"
+
+#: content-page.php:23
+#: post-content.php:21
+#@ soundcheck
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#: content-pagination.php:16
+#, php-format
+#@ soundcheck
+msgid "Page %1$d of %2$d"
+msgstr "Pagina %1$d van %2$d"
+
+#: content.php:31
+#@ soundcheck
+msgid " &hellip; Continue Reading"
+msgstr " &hellip; lees verder"
+
+#: footer.php:20
+#@ soundcheck
+msgid "Your Band Name - All Rights Reserved"
+msgstr "Theaterkoor BonTon - alle rechten voorbehouden"
+
+#: footer.php:24
+#@ soundcheck
+msgid "&copy; "
+msgstr "&copy; "
+
+#: footer.php:27
+#: functions.php:1173
+#: functions.php:1175
+#: includes/audio-track-details.php:141
+#: includes/plugins/cart66/post-price.php:14
+#: includes/widgets/featured-category.php:141
+#, php-format
+#@ soundcheck
+msgid "%s"
+msgstr "%s"
+
+#: footer.php:38
+#: includes/options/options-theme.php:191
+#@ soundcheck
+msgid "Amazon"
+msgstr "Amazon"
+
+#: footer.php:39
+#: includes/options/options-theme.php:195
+#@ soundcheck
+msgid "iTunes"
+msgstr "iTunes"
+
+#: footer.php:40
+#: includes/options/options-theme.php:198
+#@ soundcheck
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: footer.php:41
+#: includes/options/options-theme.php:192
+#@ soundcheck
+msgid "Bandcamp"
+msgstr "Bandcamp"
+
+#: footer.php:42
+#: includes/options/options-theme.php:197
+#@ soundcheck
+msgid "MySpace"
+msgstr "MySpace"
+
+#: footer.php:43
+#: includes/options/options-theme.php:196
+#@ soundcheck
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: footer.php:44
+#: includes/options/options-theme.php:199
+#@ soundcheck
+msgid "Twitter"
+msgstr "Twitter"
+
+#: footer.php:45
+#: includes/options/options-theme.php:193
+#@ soundcheck
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:46
+#: includes/options/options-theme.php:200
+#@ soundcheck
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: footer.php:47
+#: includes/options/options-theme.php:201
+#@ soundcheck
+msgid "YouTube"
+msgstr "YouTube"
+
+#: footer.php:48
+#: includes/options/options-theme.php:194
+#@ soundcheck
+msgid "Flickr"
+msgstr "Flickr"
+
+#: footer.php:49
+#: functions.php:437
+#: includes/options/options-theme.php:181
+#@ soundcheck
+msgid "RSS"
+msgstr "RSS"
+
+#: footer.php:70
+#, php-format
+#@ soundcheck
+msgid "Link to %s"
+msgstr "Link naar %s"
+
+#: footer.php:81
+#@ soundcheck
+msgid "Designed by "
+msgstr "Design van "
+
+#: footer.php:82
+#@ soundcheck
+msgid "Luke McDonald"
+msgstr "Luke McDonald"
+
+#: footer.php:83
+#@ soundcheck
+msgid "Powered by"
+msgstr "Powered by"
+
+#: footer.php:84
+#@ soundcheck
+msgid "WordPress"
+msgstr "WordPress"
+
+#: functions.php:274
+#, php-format
+#@ soundcheck
+msgid "<span>Category:</span> %s"
+msgstr "<span>Categorie:</span> %s"
+
+#: functions.php:276
+#, php-format
+#@ soundcheck
+msgid "<span>Tag:</span> %s"
+msgstr "<span>Tag:</span> %s"
+
+#: functions.php:278
+#: functions.php:280
+#: functions.php:282
+#, php-format
+#@ soundcheck
+msgid "<span>Archive For</span> %s"
+msgstr "<span>Archief voor</span> %s"
+
+#: functions.php:284
+#, php-format
+#@ soundcheck
+msgid "<span>Search For</span> \"%s\""
+msgstr "<span>Zoek naar</span> \"%s\""
+
+#: functions.php:286
+#, php-format
+#@ soundcheck
+msgid "<span>Posts By</span> %s"
+msgstr "<span>Berichten door</span> %s"
+
+#: functions.php:288
+#@ soundcheck
+msgid "<span>Browsing</span> Blog Archives"
+msgstr "<span>Bladerend</span> door blog archieven"
+
+#: functions.php:290
+#@ soundcheck
+msgid "<span>404:</span> Page Not Found"
+msgstr "<span>404:</span> Pagina niet gevonden"
+
+#: functions.php:401
+#, php-format
+#@ soundcheck
+msgid "Permalink to %s"
+msgstr "Permalink naar %s"
+
+#: functions.php:419
+#@ soundcheck
+msgid "Name <span>*</span>"
+msgstr "Naam <span>*</span>"
+
+#: functions.php:419
+#@ soundcheck
+msgid "Name"
+msgstr "Naam "
+
+#: functions.php:420
+#@ soundcheck
+msgid "Email <span>*</span>"
+msgstr "E-mail <span>*</span>"
+
+#: functions.php:420
+#@ soundcheck
+msgid "Email"
+msgstr "E-mail"
+
+#: functions.php:420
+#@ soundcheck
+msgid "(Never published)"
+msgstr "(Nooit gepubliceerd)"
+
+#: functions.php:421
+#@ soundcheck
+msgid "Website"
+msgstr "Website"
+
+#: functions.php:427
+#@ soundcheck
+msgid "Post Comment"
+msgstr "Stuur reactie"
+
+#: functions.php:430
+#@ soundcheck
+msgctxt "noun"
+msgid "Comment:"
+msgstr "Reactie:"
+
+#: functions.php:436
+#@ soundcheck
+msgid "Subscribe To Comment Feed"
+msgstr "Abonneer op de reactie feed"
+
+#: functions.php:442
+#@ soundcheck
+msgid "Cancel Reply"
+msgstr "Annuleer antwoord"
+
+#: functions.php:443
+#@ soundcheck
+msgid "Leave a Reply"
+msgstr "Geef antwoord"
+
+#: functions.php:444
+#, php-format
+#@ soundcheck
+msgid "Leave a comment to %s"
+msgstr "Reageer op %s"
+
+#: functions.php:477
+#@ soundcheck
+msgid "Link to"
+msgstr "Link naar"
+
+#: functions.php:496
+#@ soundcheck
+msgid " &middot; "
+msgstr " &middot; "
+
+#: functions.php:497
+#@ soundcheck
+msgid " Reply "
+msgstr "Antwoord "
+
+#: functions.php:501
+#@ soundcheck
+msgid " Edit "
+msgstr "Bewerk "
+
+#: functions.php:504
+#@ soundcheck
+msgid "Your comment is awaiting moderation."
+msgstr "Je reactie is in afwachting van moderatie"
+
+#: functions.php:1168
+#@ soundcheck
+msgid "Select one..."
+msgstr "Kies er één..."
+
+#: functions.php:1614
+#@ soundcheck
+msgid "Home Column 1"
+msgstr "Home kolom 1"
+
+#: functions.php:1615
+#@ soundcheck
+msgid "Shown in first column of home page."
+msgstr "Getoond in de eerste kolom op de homepage."
+
+#: functions.php:1624
+#@ soundcheck
+msgid "Home Column 2"
+msgstr "Home kolom 2"
+
+#: functions.php:1625
+#@ soundcheck
+msgid "Shown in second column of home page."
+msgstr "Getoond in de tweede kolom op de homepage."
+
+#: functions.php:1634
+#@ soundcheck
+msgid "Home Column 3"
+msgstr "Home kolom 3"
+
+#: functions.php:1635
+#@ soundcheck
+msgid "Shown in third column of home page."
+msgstr "Getoond in de derde kolom op de homepage."
+
+#: functions.php:1644
+#@ soundcheck
+msgid "Primary Sidebar - All Pages"
+msgstr "Pimaire zijbalk - alle pagina's"
+
+#: functions.php:1645
+#@ soundcheck
+msgid "Shown on all pages in left sidebar."
+msgstr "Getoond op alle pagina's in de linker zijbalk."
+
+#: functions.php:1654
+#@ soundcheck
+msgid "Secondary Sidebar - Single"
+msgstr "Secundaire zijbalk - bericht detail"
+
+#: functions.php:1655
+#@ soundcheck
+msgid "Shown on single post pages."
+msgstr "Getoond op bericht detail pagina's."
+
+#: functions.php:1664
+#@ soundcheck
+msgid "Secondary Sidebar - Page"
+msgstr "Secundaire zijbalk - Pagina"
+
+#: functions.php:1665
+#@ soundcheck
+msgid "Shown on page type pages."
+msgstr "Getoond op pagina's."
+
+#: functions.php:1674
+#@ soundcheck
+msgid "Secondary Sidebar - Multiple"
+msgstr "Secundaire zijbalk - meerdere"
+
+#: functions.php:1675
+#@ soundcheck
+msgid "Shown on pages with multiple posts."
+msgstr "Getoond op pagina's met meerdere berichten"
+
+#: functions.php:1728
+#, php-format
+#@ soundcheck
+msgid "It looks like a category has not been assigned for the Hero slides.<br /> %1$s"
+msgstr "Het ziet er naar uit dat er geen categorie is gekozen voor de Hero slides (die in de bovenbalk).<br /> %1$s"
+
+#: functions.php:1731
+#@ soundcheck
+msgid "Configure Hero Slide Options  &rarr;"
+msgstr "Configureer Hero Slide Opties  &rarr;"
+
+#: functions.php:1739
+#, php-format
+#@ soundcheck
+msgid "You have not setup any widgets for this Home page widget column.<br /> %1$s"
+msgstr "Je hebt nog geen widgets geplaatst voor deze Homepage widget kolom.<br /> %1$s"
+
+#: functions.php:1742
+#@ soundcheck
+msgid "Configure Home Widgets &rarr;"
+msgstr "Configureer homepage widgets  &rarr;"
+
+#: functions.php:1750
+#, php-format
+#@ soundcheck
+msgid "It looks like a category has not been assigned for the Events functionality.<br /> %1$s"
+msgstr "Het ziet er naar uit dat er nog geen categoie is toegekend aan de Events functionaliteit.<br /> %1$s"
+
+#: functions.php:1753
+#@ soundcheck
+msgid "Configure Events Options &rarr;"
+msgstr "Configureer Events Optiies &rarr;"
+
+#: header.php:41
+#, php-format
+#@ soundcheck
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: header.php:72
+#: includes/options/options-theme.php:12
+#@ soundcheck
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/audio-track-details.php:53
+#@ soundcheck
+msgid "Artist"
+msgstr "Artiest"
+
+#: includes/audio-track-details.php:75
+#@ soundcheck
+msgid "Album"
+msgstr "Album"
+
+#: includes/audio-track-details.php:98
+#@ soundcheck
+msgid "External URL"
+msgstr "Externe URL"
+
+#: includes/audio-track-details.php:101
+#@ soundcheck
+msgid "If provided, this url will be used as the source file for the track."
+msgstr "Als ingevuld, dan wordt deze url gebruikt als bron bestand voor de track."
+
+#: includes/audio-track-details.php:122
+#@ soundcheck
+msgid "No"
+msgstr "Nee"
+
+#: includes/audio-track-details.php:122
+#@ soundcheck
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/audio-track-details.php:150
+#@ soundcheck
+msgid "Disable Playback?"
+msgstr "Playback uitschakelen?"
+
+#: includes/class-audio-tracks.php:190
+#@ soundcheck
+msgid "No Title"
+msgstr "Geen titel"
+
+#: includes/options/classes/struts/option/color.php:28
+#@ soundcheck
+msgid "show color picker"
+msgstr "toon kleuren kiezer"
+
+#: includes/options/classes/struts/option/image.php:10
+#@ soundcheck
+msgid "Upload Image"
+msgstr "Upload beeld"
+
+#: includes/options/classes/struts/options.php:214
+#, php-format
+#@ soundcheck
+msgid "Section with name &lsquo;%1$s&rsquo; not defined"
+msgstr "Sectie genaamd &lsquo;%1$s&rsquo; is niet gedefinieerd"
+
+#: includes/options/classes/struts/options.php:262
+#@ soundcheck
+msgid "Theme Options"
+msgstr "Thema opties"
+
+#: includes/options/classes/struts/options.php:272
+#@ soundcheck
+msgid "Save Settings"
+msgstr "Bewaar instellingen"
+
+#: includes/options/classes/struts/options.php:273
+#@ soundcheck
+msgid "Reset Defaults"
+msgstr "Reset naar de standaard waaarden"
+
+#: includes/options/classes/struts/options.php:273
+#@ soundcheck
+msgid "Click OK if you want to reset your theme options to the defaults."
+msgstr "Klik OK als je de standaard waarden wilt terugzetten voor de thema opties."
+
+#: includes/options/classes/struts/options.php:283
+#@ soundcheck
+msgid "Theme settings updated successfully."
+msgstr "Thema instellingen succesvol geupdate."
+
+#: includes/options/classes/struts/section.php:76
+#: post-header.php:15
+#@ soundcheck
+msgid "Edit"
+msgstr "Bewerk"
+
+#: includes/options/classes/struts/section.php:83
+#@ soundcheck
+msgid "Save changes"
+msgstr "Bewaar wijzigingen"
+
+#: includes/options/options-setup.php:104
+#@ soundcheck
+msgid "Select a category:"
+msgstr "Selecteer een categorie:"
+
+#: includes/options/options-style.php:11
+#@ soundcheck
+msgid "* Color Palette *"
+msgstr "* Kleuren palet *"
+
+#: includes/options/options-style.php:12
+#@ soundcheck
+msgid "Primary Colors"
+msgstr "Primaire kleuren"
+
+#: includes/options/options-style.php:13
+#@ soundcheck
+msgid "Text Colors"
+msgstr "Tekst kleuren"
+
+#: includes/options/options-style.php:18
+#@ soundcheck
+msgid "Color Palette"
+msgstr "Kleuren palet"
+
+#: includes/options/options-style.php:19
+#@ soundcheck
+msgid "Choose a color palette."
+msgstr "Kies een kleuren palet"
+
+#: includes/options/options-style.php:22
+#@ soundcheck
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/options/options-style.php:23
+#@ soundcheck
+msgid "Custom"
+msgstr "Maatwerk"
+
+#: includes/options/options-style.php:29
+#@ soundcheck
+msgid "Primary &mdash; Color 1"
+msgstr "Primaire &mdash; kleur 1"
+
+#: includes/options/options-style.php:30
+#@ soundcheck
+msgid "For best results, this is lightest color of the primary colors."
+msgstr "Voor de beste resultateh, kies hier de lichtste kleur van de primaire kleuren."
+
+#: includes/options/options-style.php:34
+#@ soundcheck
+msgid "Primary &mdash; Color 2"
+msgstr "Primaire &mdash; kleur 2"
+
+#: includes/options/options-style.php:35
+#@ soundcheck
+msgid "For best results, this is the second lightest color."
+msgstr "Voor de beste resultateh, kies hier op 1 na lichtste kleur van de primaire kleuren."
+
+#: includes/options/options-style.php:39
+#@ soundcheck
+msgid "Primary &mdash; Color 3"
+msgstr "Primaire &mdash; kleur 3"
+
+#: includes/options/options-style.php:40
+#@ soundcheck
+msgid "For best results, this is the second darkest color."
+msgstr "Voor de beste resultaten, kies hier de op 1 na donkerste kleur van de primaire kleuren."
+
+#: includes/options/options-style.php:44
+#@ soundcheck
+msgid "Primary &mdash; Color 4"
+msgstr "Primaire &mdash; kleur 4"
+
+#: includes/options/options-style.php:45
+#@ soundcheck
+msgid "For best results, this is darkest color of the primary colors."
+msgstr "Voor de beste resultateh, kies hier de donkerste kleur van de primaire kleuren."
+
+#: includes/options/options-style.php:51
+#@ soundcheck
+msgid "Logo Color"
+msgstr "Logo kleur"
+
+#: includes/options/options-style.php:52
+#@ soundcheck
+msgid "Text color of a text based logo and description."
+msgstr "Tekst kleur van een tekst logo en beschrijving."
+
+#: includes/options/options-style.php:56
+#@ soundcheck
+msgid "Primary Text Color"
+msgstr "Primaire tekst kleur"
+
+#: includes/options/options-style.php:57
+#@ soundcheck
+msgid "Main text color of the content."
+msgstr "Hoofd tekst kleur van de inhoud."
+
+#: includes/options/options-style.php:61
+#@ soundcheck
+msgid "Primary Link Color"
+msgstr "Primaire link kleur"
+
+#: includes/options/options-style.php:62
+#@ soundcheck
+msgid "Main link color of the content."
+msgstr "Hoofd link kleur van de inhoud."
+
+#: includes/options/options-style.php:66
+#@ soundcheck
+msgid "Text Shadows"
+msgstr "Tekst schaduw"
+
+#: includes/options/options-style.php:67
+#@ soundcheck
+msgid "Remove text shadows. If you would like to remove the text shadows, check this box."
+msgstr "Verwijder tekst schaduw. Als je tekst schaduw wilt verwijderen, vink dit aan."
+
+#: includes/options/options-theme.php:13
+#@ soundcheck
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/options/options-theme.php:14
+#@ soundcheck
+msgid "Hero Slider"
+msgstr "Hero slider"
+
+#: includes/options/options-theme.php:15
+#@ soundcheck
+msgid "Thumbnail Carousel"
+msgstr "Thumbnail Carousel"
+
+#: includes/options/options-theme.php:16
+#: includes/widgets/events.php:32
+#@ soundcheck
+msgid "Events"
+msgstr "Events"
+
+#: includes/options/options-theme.php:17
+#: includes/widgets/audio-player.php:32
+#@ soundcheck
+msgid "Audio Player"
+msgstr "Audio Player"
+
+#: includes/options/options-theme.php:18
+#@ soundcheck
+msgid "Social Media"
+msgstr "Social Media"
+
+#: includes/options/options-theme.php:19
+#@ soundcheck
+msgid "Footer"
+msgstr "Footer"
+
+#: includes/options/options-theme.php:28
+#@ soundcheck
+msgid "Logo URL:"
+msgstr "Logo URL:"
+
+#: includes/options/options-theme.php:29
+#@ soundcheck
+msgid "Your image can be any width and height."
+msgstr "Je beeld kan elke hoogte en breedte zijn."
+
+#: includes/options/options-theme.php:32
+#@ soundcheck
+msgid "Enable Site Tagline"
+msgstr "Zet de site tagline aan"
+
+#: includes/options/options-theme.php:33
+#@ soundcheck
+msgid "Display your site tagline beneath your text/image based logo."
+msgstr "Toon de site tagline onder je text/beeld logo"
+
+#: includes/options/options-theme.php:38
+#@ soundcheck
+msgid "Blog Category"
+msgstr "Blog categorie"
+
+#: includes/options/options-theme.php:39
+#@ soundcheck
+msgid "Select a category to be used for the blog."
+msgstr "Selecteer een categorie om te gebruiken voor de blog."
+
+#: includes/options/options-theme.php:43
+#@ soundcheck
+msgid "Featured Sidebar - Home Col. 1"
+msgstr "Uitgelichte zijbalk - Hompage kolom 1"
+
+#: includes/options/options-theme.php:44
+#@ soundcheck
+msgid "This option pulls the first home page widget column up over the hero area."
+msgstr "Deze optie trekt de 1e homepage widget kolom over de hero slider heen."
+
+#: includes/options/options-theme.php:47
+#@ soundcheck
+msgid "Featured Sidebar - Primary"
+msgstr "Uitgelichte zijbalk - primair"
+
+#: includes/options/options-theme.php:48
+#@ soundcheck
+msgid "This option pulls the primary sidebar widgets up over the hero area"
+msgstr "Deze optie trekt de primaire zijbalk widgets over de hero slider heen."
+
+#: includes/options/options-theme.php:51
+#@ soundcheck
+msgid "Featured Sidebar - Primary Products "
+msgstr "Uitgelichte zijbalk - primaire producten"
+
+#: includes/options/options-theme.php:52
+#@ soundcheck
+msgid "This option pulls the Primary Products sidebar widgets up over the hero area."
+msgstr "Deze optie trekt de primaire producten zijbalk widgets over de hero slider heen."
+
+#: includes/options/options-theme.php:59
+#@ soundcheck
+msgid "Category"
+msgstr "Categorie"
+
+#: includes/options/options-theme.php:60
+#@ soundcheck
+msgid "Select a category to be used for the Hero slides."
+msgstr "Selecteer een categorie om te gebruiken voor de Hero slider"
+
+#: includes/options/options-theme.php:65
+#@ soundcheck
+msgid "Max Slide Count"
+msgstr "Max Slide Teller"
+
+#: includes/options/options-theme.php:66
+#@ soundcheck
+msgid "Max Number of slides to display in the carousel."
+msgstr "Max aantal slides om te tonen in de carousel"
+
+#: includes/options/options-theme.php:69
+#@ soundcheck
+msgid "1"
+msgstr "1"
+
+#: includes/options/options-theme.php:70
+#@ soundcheck
+msgid "2"
+msgstr "2"
+
+#: includes/options/options-theme.php:71
+#@ soundcheck
+msgid "3"
+msgstr "3"
+
+#: includes/options/options-theme.php:72
+#@ soundcheck
+msgid "4"
+msgstr "4"
+
+#: includes/options/options-theme.php:73
+#@ soundcheck
+msgid "5"
+msgstr "5"
+
+#: includes/options/options-theme.php:74
+#@ soundcheck
+msgid "6"
+msgstr "6"
+
+#: includes/options/options-theme.php:75
+#@ soundcheck
+msgid "7"
+msgstr "7"
+
+#: includes/options/options-theme.php:76
+#@ soundcheck
+msgid "8"
+msgstr "8"
+
+#: includes/options/options-theme.php:77
+#@ soundcheck
+msgid "9"
+msgstr "9"
+
+#: includes/options/options-theme.php:78
+#@ soundcheck
+msgid "10"
+msgstr "10"
+
+#: includes/options/options-theme.php:82
+#@ soundcheck
+msgid "Randomize Slides"
+msgstr "Slides willekeurig"
+
+#: includes/options/options-theme.php:83
+#@ soundcheck
+msgid "Yes, display slides in random order."
+msgstr "Ja, toon slides in willekeurige volgorde."
+
+#: includes/options/options-theme.php:86
+#@ soundcheck
+msgid "Slide Animation"
+msgstr "Slide animatie"
+
+#: includes/options/options-theme.php:87
+#@ soundcheck
+msgid "Choose a type of animation for each slide transition."
+msgstr "Kies een type animatie voor de slide overgang"
+
+#: includes/options/options-theme.php:90
+#@ soundcheck
+msgid "Slide (vertical)"
+msgstr "Slide (verticaal)"
+
+#: includes/options/options-theme.php:91
+#@ soundcheck
+msgid "Fade"
+msgstr "Fade"
+
+#: includes/options/options-theme.php:95
+#@ soundcheck
+msgid "Hero Slider Speed"
+msgstr "Hero Slider snelheid"
+
+#: includes/options/options-theme.php:96
+#@ soundcheck
+msgid "Speed (in seconds) at which the slides will animate between transitions."
+msgstr "Snelheid (in seconden) waarmee de slides animeren tussen overgangen."
+
+#: includes/options/options-theme.php:100
+#@ soundcheck
+msgid "Hero Slider Timeout"
+msgstr "Hero Slider Timeout"
+
+#: includes/options/options-theme.php:101
+#@ soundcheck
+msgid "Time (in seconds) before transitioning to the next slide. Leave empty to disable."
+msgstr "Tijd (in seconden) voor de overgang naar de volgend slide. Laat leeg om uit te schakelen."
+
+#: includes/options/options-theme.php:107
+#@ soundcheck
+msgid "Thumbnail Carousel Category"
+msgstr "Thumbnail Carousel Categorie"
+
+#: includes/options/options-theme.php:108
+#@ soundcheck
+msgid "Select which category should be shown in the image carousel. By default, all categories will be used."
+msgstr "Selecteer welke categorie moet worden getoond in de carousel. Standaard worden alle categorieen gebruikt."
+
+#: includes/options/options-theme.php:112
+#@ soundcheck
+msgid "Thumbnail Count"
+msgstr "Thumbnail aantal"
+
+#: includes/options/options-theme.php:113
+#@ soundcheck
+msgid "Max Number of thumbnails to display in the carousel."
+msgstr "Max aantal thumbnails te tonen in de carousel"
+
+#: includes/options/options-theme.php:117
+#@ soundcheck
+msgid "Home Page"
+msgstr "homepage"
+
+#: includes/options/options-theme.php:118
+#@ soundcheck
+msgid "Enable carousel on the home page?"
+msgstr "Carousel aanzetten op de homepage?"
+
+#: includes/options/options-theme.php:121
+#@ soundcheck
+msgid "Multiple Post Page"
+msgstr "Meerdere berichten pagina"
+
+#: includes/options/options-theme.php:122
+#@ soundcheck
+msgid "Enable carousel on  multiple post page?"
+msgstr "Carousel aanzetten op pagina's met meerdere berichten?"
+
+#: includes/options/options-theme.php:125
+#@ soundcheck
+msgid "Single Post Pages"
+msgstr "Bericht detail pagina"
+
+#: includes/options/options-theme.php:126
+#@ soundcheck
+msgid "Enable carousel on single post page?"
+msgstr "Carousel aanzetten op bericht detail pagina's?"
+
+#: includes/options/options-theme.php:129
+#@ soundcheck
+msgid "Page - Regular"
+msgstr "Pagina - standaard"
+
+#: includes/options/options-theme.php:130
+#@ soundcheck
+msgid "Enable carousel on regular pages?"
+msgstr "Carousel aanzetten op een standaard pagina?"
+
+#: includes/options/options-theme.php:133
+#@ soundcheck
+msgid "Page - Product"
+msgstr "Pagina - product"
+
+#: includes/options/options-theme.php:134
+#@ soundcheck
+msgid "Enable carousel on product type pages? Requires Cart66 Plugin."
+msgstr "Carousel aanzetten op een product pagina? Cart66 plugin is daarvoor nodig."
+
+#: includes/options/options-theme.php:137
+#@ soundcheck
+msgid "Page - Discography"
+msgstr "Pagina - discography"
+
+#: includes/options/options-theme.php:138
+#@ soundcheck
+msgid "Enable carousel on the discography page?"
+msgstr "Carousel aanzetten op de dicography pagina?"
+
+#: includes/options/options-theme.php:141
+#@ soundcheck
+msgid "Page - Events"
+msgstr "Pagina - Events"
+
+#: includes/options/options-theme.php:142
+#@ soundcheck
+msgid "Enable carousel on Event type pages?"
+msgstr "Carousel aanzetten op de events pagina?"
+
+#: includes/options/options-theme.php:145
+#@ soundcheck
+msgid "Page - Full Width"
+msgstr "Pagina - volle breedte"
+
+#: includes/options/options-theme.php:146
+#@ soundcheck
+msgid "Enable carousel on the full width type pages?"
+msgstr "Carousel aanzetten op volle breedte pagina's?"
+
+#: includes/options/options-theme.php:151
+#@ soundcheck
+msgid "Events Category"
+msgstr "Events categorie"
+
+#: includes/options/options-theme.php:152
+#@ soundcheck
+msgid "Select a category to be used for the events."
+msgstr "Selecteer een categorie om te gebruiken voor events."
+
+#: includes/options/options-theme.php:156
+#@ soundcheck
+msgid "Events Per Page"
+msgstr "Events per pagina"
+
+#: includes/options/options-theme.php:157
+#@ soundcheck
+msgid "Max Number of events to display per page."
+msgstr "Max aantal events te tonen per pagina"
+
+#: includes/options/options-theme.php:163
+#@ soundcheck
+msgid "Single Pages - Display Playlist"
+msgstr "Detail bericht - toon playlist"
+
+#: includes/options/options-theme.php:164
+#@ soundcheck
+msgid "Display playlist by default on single audio post pages."
+msgstr "Toon playlist standaard op audio bericht detail pagina's."
+
+#: includes/options/options-theme.php:167
+#@ soundcheck
+msgid "Single Pages - Autoplay Audio?"
+msgstr "Detail bericht - autoplay audio?"
+
+#: includes/options/options-theme.php:168
+#@ soundcheck
+msgid "Autoplay audio by default on single audio post pages."
+msgstr "Autoplay audio standaard op audio bericht detail pagina's."
+
+#: includes/options/options-theme.php:171
+#@ soundcheck
+msgid "Discography Template - Display Content"
+msgstr "Discography Template - Toon inhoud"
+
+#: includes/options/options-theme.php:172
+#@ soundcheck
+msgid "Display current track content for audio players on the Discography Page template."
+msgstr "Toon huidige track inhoud voor audio players op het discography pagina template."
+
+#: includes/options/options-theme.php:175
+#@ soundcheck
+msgid "Discography Template - Display Playlist Button"
+msgstr "Discography Template - Toon playlist knop"
+
+#: includes/options/options-theme.php:176
+#@ soundcheck
+msgid "Display the playlist button for audio players on the Discography Page template."
+msgstr "Toon de playlist knop voor audio spelers op het Discography pagina template."
+
+#: includes/options/options-theme.php:182
+#@ soundcheck
+msgid "Display RSS Icon"
+msgstr "Toon RSS icoon"
+
+#: includes/options/options-theme.php:185
+#@ soundcheck
+msgid "FeedBurner"
+msgstr "FeedBurner"
+
+#: includes/options/options-theme.php:186
+#@ soundcheck
+msgid "Provide your <a href=\"http://feedburner.google.com\" title=\"Go to FeedBurner\" target=\"_blank\">FeedBurner</a> feed to enable this functionality. The RSS icon must be enabled above."
+msgstr "Geef je <a href=\"http://feedburner.google.com\" title=\"Go to FeedBurner\" target=\"_blank\">FeedBurner</a> feed om deze functie aan te zetten. Het RSS icoon hierboven moet aangezet zijn."
+
+#: includes/options/options-theme.php:207
+#@ soundcheck
+msgid "Provide URL including http://"
+msgstr "Geef URL incclusief http://"
+
+#: includes/options/options-theme.php:213
+#@ soundcheck
+msgid "Footer Text"
+msgstr "Footer tekst"
+
+#: includes/options/options-theme.php:214
+#@ soundcheck
+msgid "Set the text to be displayed in the footer."
+msgstr "Geef de tekst die moet worden getoond in de footer."
+
+#: includes/plugins/cart66/content-product-purchase.php:2
+#@ soundcheck
+msgid "Product Info"
+msgstr "Product informatie"
+
+#: includes/plugins/cart66/content-product-purchase.php:9
+#@ soundcheck
+msgid "Price: "
+msgstr "Prijs: "
+
+#: includes/plugins/cart66/functions.php:52
+#@ soundcheck
+msgid "Store (Cart66)"
+msgstr "Winkel (Cart66)"
+
+#: includes/plugins/cart66/functions.php:56
+#@ soundcheck
+msgid "Store Category"
+msgstr "Winkel categorie"
+
+#: includes/plugins/cart66/functions.php:57
+#@ soundcheck
+msgid "Select which category should be used for the Products display."
+msgstr "Selecteer een categorie die moet worden gebruikt voor de product display;"
+
+#: includes/plugins/cart66/functions.php:249
+#@ soundcheck
+msgid "Primary Sidebar - Products"
+msgstr "Primaire zijbalk - producten"
+
+#: includes/plugins/cart66/functions.php:250
+#@ soundcheck
+msgid "Shown on product pages in left sidebar."
+msgstr "Toon op product pagina's in de linker zijbalk."
+
+#: includes/plugins/cart66/functions.php:259
+#@ soundcheck
+msgid "Secondary Sidebar - Products"
+msgstr "Secundaire zijbalk - producten"
+
+#: includes/plugins/cart66/functions.php:260
+#@ soundcheck
+msgid "Shown on single product pages."
+msgstr "Toon op product detail pagina's."
+
+#: includes/plugins/cart66/functions.php:343
+#@ soundcheck
+msgid "Product Details"
+msgstr "Product details"
+
+#: includes/plugins/cart66/functions.php:400
+#@ soundcheck
+msgid "Product"
+msgstr "Product"
+
+#: includes/plugins/cart66/functions.php:403
+#@ soundcheck
+msgid "Select a product..."
+msgstr "Selecteer een product..."
+
+#: includes/plugins/cart66/functions.php:408
+#, php-format
+#@ soundcheck
+msgid "%1$s &mdash; %2$s %3$s"
+msgstr "%1$s &mdash; %2$s %3$s"
+
+#: includes/plugins/cart66/functions.php:426
+#@ soundcheck
+msgid "Setup a product."
+msgstr "Stel een product in."
+
+#: includes/plugins/cart66/functions.php:427
+#@ soundcheck
+msgid "Setup a product &rarr;"
+msgstr "Stel een product in &rarr;"
+
+#: includes/plugins/cart66/loop-product.php:5
+#@ soundcheck
+msgid "Cart66 Plugin Required"
+msgstr "Cart66 plugin voor nodig"
+
+#: includes/plugins/cart66/loop-product.php:8
+#, php-format
+#@ soundcheck
+msgid "The Cart66 plugin is required and needs to be %1$s. Learn more about %2$s."
+msgstr "De Cart66 plugin is nodig en moet worden  %1$s. Lees meer over %2$s."
+
+#: includes/plugins/cart66/loop-product.php:30
+#@ soundcheck
+msgid "Product Category Required"
+msgstr "Product categorie nodig"
+
+#: includes/plugins/cart66/loop-product.php:33
+#, php-format
+#@ soundcheck
+msgid "The Cart66 Products page template requires that you %1$s."
+msgstr "Het Cart66 product pagina template heeft nodig dat je %1$s."
+
+#: includes/plugins/cart66/loop-product.php:36
+#@ soundcheck
+msgid "Set a Store Category"
+msgstr "Stel een winkel categorie"
+
+#: includes/plugins/cart66/loop-product.php:37
+#@ soundcheck
+msgid "set a Store Category"
+msgstr "stel een winkel categorie in"
+
+#: includes/plugins/cart66/loop-product.php:85
+#@ soundcheck
+msgid "Store is empty."
+msgstr "Winkel is leeg"
+
+#: includes/plugins/cart66/loop-product.php:87
+#@ soundcheck
+msgid "It appears you do not have any posts setup as Cart66 products. Be sure to check the following:"
+msgstr "Het lijkt er op dat je geen berichten hebt ingesteld als Cart66 producten. Check het volgende:"
+
+#: includes/plugins/cart66/loop-product.php:90
+#@ soundcheck
+msgid "Be sure at least one product post is in the Store category set via Appearance > Theme Options > Store (section)."
+msgstr "Zorg er voor dat tenminste 1 product bericht is ingesteld in de Winkel categorie via Weergave > Thema Opties > Store (section)."
+
+#: includes/plugins/cart66/loop-product.php:91
+#@ soundcheck
+msgid "Be sure your product post has a Featured Image set."
+msgstr "Zorg er voor dat bij je product bericht een uitgelicht beeld is ingesteld."
+
+#: includes/plugins/cart66/loop-product.php:92
+#@ soundcheck
+msgid "Be sure your product post has a product set in the \"Product Details\" meta box."
+msgstr "Zorg er voor dat je product bericht een product heeft ingesteld in de \"Product Details\" meta box."
+
+#: includes/shortcodes/audio-player.php:103
+#@ soundcheck
+msgid "Album Artwork"
+msgstr "Album beeld"
+
+#: includes/shortcodes/audio-player.php:117
+#@ soundcheck
+msgid "Play"
+msgstr "Play"
+
+#: includes/shortcodes/audio-player.php:120
+#@ soundcheck
+msgid "Pause"
+msgstr "Pauze"
+
+#: includes/shortcodes/audio-player.php:134
+#@ soundcheck
+msgid "Show Playlist"
+msgstr "Toon playlist"
+
+#: includes/shortcodes/audio-player.php:139
+#@ soundcheck
+msgid "Show Info"
+msgstr "Toon info"
+
+#: includes/shortcodes/audio-player.php:156
+#@ soundcheck
+msgid "View album details"
+msgstr "Bekijk album details"
+
+#: includes/shortcodes/audio-player.php:174
+#@ soundcheck
+msgid "Loading audio&hellip;"
+msgstr "Loading audio&hellip;"
+
+#: includes/shortcodes/audio-player.php:175
+#@ soundcheck
+msgid "Please wait while the audio tracks are being loaded."
+msgstr "Wacht even terwijl de audio tracks worden geladen."
+
+#: includes/shortcodes/audio-player.php:181
+#@ soundcheck
+msgid "No Audio Available"
+msgstr "Geen audio beschikbaar"
+
+#: includes/shortcodes/audio-player.php:182
+#@ soundcheck
+msgid "It appears there are not any audio playlists available to play."
+msgstr "Het lijkt er op dat er geen audio playlists beschikbaar zijn om af te spelen."
+
+#: includes/shortcodes/audio-player.php:188
+#@ soundcheck
+msgid "Bad URL"
+msgstr "Foutieve URL"
+
+#: includes/shortcodes/audio-player.php:189
+#@ soundcheck
+msgid "The track url currently being played either does not exist or is not linked correctly."
+msgstr "De huidige track url bestaat niet of is niet correct gelinked."
+
+#: includes/shortcodes/audio-player.php:195
+#@ soundcheck
+msgid "Update Required To Play Media"
+msgstr "Update nodig om media af te spelen."
+
+#: includes/shortcodes/audio-player.php:196
+#, php-format
+#@ soundcheck
+msgid "Update your browser to a recent version or update your %1$s."
+msgstr "Update je browser naar een recente versie of update je  %1$s."
+
+#: includes/shortcodes/audio-player.php:198
+#@ soundcheck
+msgid "Link to Adobe Flash Player Plugin"
+msgstr "Link naar Adobe Flash Player Plugin"
+
+#: includes/shortcodes/audio-player.php:199
+#@ soundcheck
+msgid "Flash plugin"
+msgstr "Flash plugin"
+
+#: includes/widgets/audio-player.php:23
+#@ soundcheck
+msgid "A custom audio player widget."
+msgstr "Een maatwerk audio player widget"
+
+#: includes/widgets/audio-player.php:59
+#@ soundcheck
+msgid "Hidden Title:"
+msgstr "Verborgen titel:"
+
+#: includes/widgets/audio-player.php:68
+#@ soundcheck
+msgid "Album:"
+msgstr "Album:"
+
+#: includes/widgets/audio-player.php:76
+#@ soundcheck
+msgid "Show album info?"
+msgstr "Toon album info?"
+
+#: includes/widgets/audio-player.php:84
+#@ soundcheck
+msgid "Hide playlist button?"
+msgstr "Verberg playlist knop?"
+
+#: includes/widgets/audio-player.php:90
+#, php-format
+#@ soundcheck
+msgid "<p><strong>%1$s</strong></p> %2$s"
+msgstr "<p><strong>%1$s</strong></p> %2$s"
+
+#: includes/widgets/events.php:23
+#: includes/widgets/featured-category.php:23
+#@ soundcheck
+msgid "Show latest posts from a category."
+msgstr "Toon nieuwste berichten van een categorie."
+
+#: includes/widgets/events.php:40
+#@ soundcheck
+msgid "Upcoming Events"
+msgstr "Aankomende events"
+
+#: includes/widgets/events.php:60
+#: includes/widgets/featured-category.php:55
+#: includes/widgets/featured-post.php:52
+#: includes/widgets/latest-tweets.php:58
+#@ soundcheck
+msgid "Title:"
+msgstr "Titel:"
+
+#: includes/widgets/events.php:68
+#@ soundcheck
+msgid "Event Count:"
+msgstr "Event aantal:"
+
+#: includes/widgets/events.php:76
+#@ soundcheck
+msgid "Show event excerpt?"
+msgstr "Toon event intro?"
+
+#: includes/widgets/events.php:84
+#@ soundcheck
+msgid "Should the events link to an events page?"
+msgstr "Moet de event link naar een events pagina linken?"
+
+#: includes/widgets/events.php:97
+#@ soundcheck
+msgid "Show \"View More\" button?"
+msgstr "Toon \"lees meer\" knop?"
+
+#: includes/widgets/events.php:156
+#: loop-events.php:33
+#, php-format
+#@ soundcheck
+msgid "There are not any %s scheduled at this time."
+msgstr "Er zijn geen %s ingepland op dit moment."
+
+#: includes/widgets/events.php:208
+#: includes/widgets/featured-category.php:206
+#: includes/widgets/featured-category.php:207
+#@ soundcheck
+msgid "View More"
+msgstr "Lees meer"
+
+#: includes/widgets/featured-category.php:32
+#@ soundcheck
+msgid "Featured Category"
+msgstr "Uitgelichte categorie"
+
+#: includes/widgets/featured-category.php:40
+#@ soundcheck
+msgid "Latest Posts"
+msgstr "Nieuwste berichten"
+
+#: includes/widgets/featured-category.php:63
+#@ soundcheck
+msgid "Category:"
+msgstr "Categorie:"
+
+#: includes/widgets/featured-category.php:76
+#@ soundcheck
+msgid "Post Count:"
+msgstr "Bericht aantal:"
+
+#: includes/widgets/featured-category.php:84
+#: includes/widgets/featured-post.php:68
+#@ soundcheck
+msgid "Excerpt Length: (# of characters)"
+msgstr "Intro lengte: (aantal lettertekens)"
+
+#: includes/widgets/featured-category.php:92
+#@ soundcheck
+msgid "Show post date?"
+msgstr "Toon bericht datum?"
+
+#: includes/widgets/featured-category.php:100
+#@ soundcheck
+msgid "Show post thumbnails?"
+msgstr "Toon bericht thumbnails?"
+
+#: includes/widgets/featured-category.php:140
+#@ soundcheck
+msgid "View "
+msgstr "Bekijk "
+
+#: includes/widgets/featured-post.php:23
+#@ soundcheck
+msgid "Show a specific post to feature."
+msgstr "Toon een specifiek bericht als uitgelicht."
+
+#: includes/widgets/featured-post.php:32
+#@ soundcheck
+msgid "Featured Post"
+msgstr "Uitgelicht bericht"
+
+#: includes/widgets/featured-post.php:60
+#@ soundcheck
+msgid "Post ID:"
+msgstr "Bericht ID:"
+
+#: includes/widgets/featured-post.php:76
+#@ soundcheck
+msgid "Show featured Image?"
+msgstr "Toon uitgelicht beeld?"
+
+#: includes/widgets/latest-tweets.php:25
+#@ soundcheck
+msgid "Display a list of your latest tweets"
+msgstr "Toon een lijst van je nieuwste tweets"
+
+#: includes/widgets/latest-tweets.php:32
+#@ soundcheck
+msgid "Latest Tweets"
+msgstr "Nieuwste tweets"
+
+#: includes/widgets/latest-tweets.php:66
+#@ soundcheck
+msgid "Name:"
+msgstr "Naam:"
+
+#: includes/widgets/latest-tweets.php:74
+#@ soundcheck
+msgid "Twitter Username:"
+msgstr "Twitter gebruikersnaam:"
+
+#: includes/widgets/latest-tweets.php:82
+#@ soundcheck
+msgid "Number of Tweets to show:"
+msgstr "Aantal tweets om te tonen:"
+
+#: includes/widgets/latest-tweets.php:90
+#@ soundcheck
+msgid "5 Minutes"
+msgstr "5 minuten"
+
+#: includes/widgets/latest-tweets.php:91
+#@ soundcheck
+msgid "15 Minutes"
+msgstr "15 minuten"
+
+#: includes/widgets/latest-tweets.php:92
+#@ soundcheck
+msgid "30 Minutes"
+msgstr "30 minuten"
+
+#: includes/widgets/latest-tweets.php:93
+#@ soundcheck
+msgid "1 Hour"
+msgstr "1 uur"
+
+#: includes/widgets/latest-tweets.php:94
+#@ soundcheck
+msgid "2 Hours"
+msgstr "2 uur"
+
+#: includes/widgets/latest-tweets.php:95
+#@ soundcheck
+msgid "4 Hours"
+msgstr "4 uur"
+
+#: includes/widgets/latest-tweets.php:96
+#@ soundcheck
+msgid "12 Hours"
+msgstr "12 uur"
+
+#: includes/widgets/latest-tweets.php:97
+#@ soundcheck
+msgid "24 Hours"
+msgstr "24 uur"
+
+#: includes/widgets/latest-tweets.php:100
+#@ soundcheck
+msgid "Load new Tweets every:"
+msgstr "Laad nieuwe tweets elke:"
+
+#: includes/widgets/latest-tweets.php:108
+#@ soundcheck
+msgid "Hide @ Replies?"
+msgstr "Verberg @ Replies?"
+
+#: includes/widgets/latest-tweets.php:116
+#@ soundcheck
+msgid "Display follow button?"
+msgstr "Toon volg knop?"
+
+#: includes/widgets/latest-tweets.php:168
+#@ default
+msgid "twitter_id"
+msgstr ""
+
+#: includes/widgets/latest-tweets.php:173
+#@ soundcheck
+msgid "View Profile"
+msgstr "Bekijk profiel"
+
+#: includes/widgets/latest-tweets.php:190
+#@ soundcheck
+msgid "The Twitter API is taking too long to respond. Please try again later."
+msgstr "De twitter API doet er te lang over om te antwoorden. Probeer het later nog eens."
+
+#: includes/widgets/latest-tweets.php:193
+#@ soundcheck
+msgid "There was an error while attempting to contact the Twitter API. Please try again."
+msgstr "Er was een fout bij het contact maken met de twitter API. Probeer het later nog eens."
+
+#: includes/widgets/latest-tweets.php:196
+#@ soundcheck
+msgid "The Twitter API returned an error while processing your request. Please try again."
+msgstr "De twitter API gaf een fout. Probeer het later nog eens."
+
+#: includes/widgets/latest-tweets.php:212
+#, php-format
+#@ soundcheck
+msgid "about %s ago"
+msgstr "ongeveer %s geleden"
+
+#: includes/widgets/latest-tweets.php:243
+#@ soundcheck
+msgid "Follow"
+msgstr "Volg"
+
+#: includes/widgets/social-sharing.php:22
+#@ soundcheck
+msgid "Facebook, Twitter, Google +1, and Email sharing links."
+msgstr "Facebook, Twitter, Google +1, en e-mail sharing links."
+
+#: includes/widgets/social-sharing.php:31
+#@ soundcheck
+msgid "Social Sharing"
+msgstr "Social Sharing"
+
+#: includes/widgets/social-sharing.php:71
+#@ soundcheck
+msgid "Share by Email"
+msgstr "Share per e-mail"
+
+#: loop-events.php:56
+#@ soundcheck
+msgid "Filter:"
+msgstr "Filter:"
+
+#: post-content.php:13
+#@ soundcheck
+msgid "&hellip; Continue Reading"
+msgstr "&hellip; lees verder"
+
+#: post-meta.php:12
+#, php-format
+#@ soundcheck
+msgid "View all posts by %s"
+msgstr "Bekijk alle berichten van  %s"
+
+#: searchform.php:11
+#@ soundcheck
+msgid "Search"
+msgstr "Zoek"
+
+#: searchform.php:12
+#@ soundcheck
+msgid "GO"
+msgstr "GA"
+
+#: single.php:32
+#@ soundcheck
+msgid "<span class=\"button\">&laquo; Prev</span>"
+msgstr "<span class=\"button\">&laquo; Vorige</span>"
+
+#: single.php:33
+#@ soundcheck
+msgid "Next &raquo;"
+msgstr "Volgende &raquo;"
+

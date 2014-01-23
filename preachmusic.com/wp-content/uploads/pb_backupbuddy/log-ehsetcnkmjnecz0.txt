@@ -1,0 +1,36 @@
+[Apr 6, 2013 16:36:03 0-error] [peup1qtcmy] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Apr 6, 2013 16:36:03 0-error] [peup1qtcmy] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Apr 6, 2013 16:36:03 0-error] [peup1qtcmy] Failed function `backup_zip_files`. Backup terminated.
+[Apr 6, 2013 16:36:03 0-error] [peup1qtcmy] Sending email error notification. Subject: `BackupBuddy Error - http://preachmusic.com`; body: `An error occurred with BackupBuddy v3.3.0.1 on Sat, 06 Apr 13 16:36:03 +0000 for the site http://preachmusic.com. Error details:
+
+One or more backup steps reported a failure. Backup failure running function `backup_zip_files` with the arguments `` with backup serial `peup1qtcmy`. Please run a manual backup of the same type to verify backups are working properly.`; recipient(s): `preachmuzak@gmail.com`.
+[Apr 6, 2013 16:52:21 0-error] [yeiqy4h0pk] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Apr 6, 2013 16:52:21 0-error] [yeiqy4h0pk] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Apr 6, 2013 16:52:21 0-error] [yeiqy4h0pk] Failed function `backup_zip_files`. Backup terminated.
+[Apr 6, 2013 16:52:21 0-error] [yeiqy4h0pk] Sending email error notification. Subject: `BackupBuddy Error - http://preachmusic.com`; body: `An error occurred with BackupBuddy v3.3.0.1 on Sat, 06 Apr 13 16:52:21 +0000 for the site http://preachmusic.com. Error details:
+
+One or more backup steps reported a failure. Backup failure running function `backup_zip_files` with the arguments `` with backup serial `yeiqy4h0pk`. Please run a manual backup of the same type to verify backups are working properly.`; recipient(s): `preachmuzak@gmail.com`.
+[Apr 6, 2013 17:08:35 0-error] [hi51hpw0et] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Apr 6, 2013 17:08:35 0-error] [hi51hpw0et] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Apr 6, 2013 17:08:35 0-error] [hi51hpw0et] Failed function `backup_zip_files`. Backup terminated.
+[Apr 6, 2013 17:08:35 0-error] [hi51hpw0et] Sending email error notification. Subject: `BackupBuddy Error - http://preachmusic.com`; body: `An error occurred with BackupBuddy v3.3.0.1 on Sat, 06 Apr 13 17:08:35 +0000 for the site http://preachmusic.com. Error details:
+
+One or more backup steps reported a failure. Backup failure running function `backup_zip_files` with the arguments `` with backup serial `hi51hpw0et`. Please run a manual backup of the same type to verify backups are working properly.`; recipient(s): `preachmuzak@gmail.com`.
+[Apr 7, 2013 23:02:24 0-error] [h7z74et2e2] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Apr 7, 2013 23:02:24 0-error] [h7z74et2e2] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Apr 7, 2013 23:02:24 0-error] [h7z74et2e2] Failed function `backup_zip_files`. Backup terminated.
+[Apr 7, 2013 23:02:24 0-error] [h7z74et2e2] Sending email error notification. Subject: `BackupBuddy Error - http://preachmusic.com`; body: `An error occurred with BackupBuddy v3.3.0.1 on Sun, 07 Apr 13 23:02:24 +0000 for the site http://preachmusic.com. Error details:
+
+One or more backup steps reported a failure. Backup failure running function `backup_zip_files` with the arguments `` with backup serial `h7z74et2e2`. Please run a manual backup of the same type to verify backups are working properly.`; recipient(s): `preachmuzak@gmail.com`.
+[Apr 7, 2013 23:25:08 0-error] [6y8yxa9jow] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Apr 7, 2013 23:25:08 0-error] [6y8yxa9jow] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Apr 7, 2013 23:25:08 0-error] [6y8yxa9jow] Failed function `backup_zip_files`. Backup terminated.
+[Apr 7, 2013 23:25:09 0-error] [6y8yxa9jow] Sending email error notification. Subject: `BackupBuddy Error - http://preachmusic.com`; body: `An error occurred with BackupBuddy v3.3.0.1 on Sun, 07 Apr 13 23:25:09 +0000 for the site http://preachmusic.com. Error details:
+
+One or more backup steps reported a failure. Backup failure running function `backup_zip_files` with the arguments `` with backup serial `6y8yxa9jow`. Please run a manual backup of the same type to verify backups are working properly.`; recipient(s): `preachmuzak@gmail.com`.
+[Apr 26, 2013 11:57:02 0-error] [1gb2zmhemk] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Apr 26, 2013 11:57:02 0-error] [1gb2zmhemk] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Apr 26, 2013 11:57:02 0-error] [1gb2zmhemk] Failed function `backup_zip_files`. Backup terminated.
+[Apr 26, 2013 11:57:02 0-error] [1gb2zmhemk] Sending email error notification. Subject: `BackupBuddy Error - http://preachmusic.com`; body: `An error occurred with BackupBuddy v3.3.0.1 on Fri, 26 Apr 13 11:57:02 +0000 for the site http://preachmusic.com. Error details:
+
+One or more backup steps reported a failure. Backup failure running function `backup_zip_files` with the arguments `` with backup serial `1gb2zmhemk`. Please run a manual backup of the same type to verify backups are working properly.`; recipient(s): `preachmuzak@gmail.com`.

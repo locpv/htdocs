@@ -1,0 +1,84 @@
+1366977645|~|73.19|~|21.23|~|details|~|Zip process reported: 0 warnings
+1366977645|~|73.25|~|21.23|~|details|~|Moving Zip Archive file to local archive directory.
+1366977646|~|73.29|~|21.23|~|details|~|Zip Archive file moved to local archive directory.
+1366977646|~|73.31|~|21.23|~|message|~|Zip Archive file successfully created with no errors or warnings.
+1366977646|~|73.35|~|21.23|~|details|~|Zip Archive file size: 359212285 bytes, owned by user:group 10215159:100450 with permissions 0600
+1366977646|~|73.40|~|21.23|~|details|~|Removing temporary directory.
+1366977646|~|73.44|~|21.23|~|details|~|The exec method for ZIP was successful.
+1366977646|~|73.47|~|21.23|~|message|~|Backup ZIP file successfully created.
+1366977646|~|73.50|~|21.23|~|details|~|Chmod of ZIP file to 0644 succeeded.
+1366977646|~|73.52|~|21.23|~|details|~|Saving meta data to zip comment.
+1366977656|~|83.78|~|21.24|~|details|~|exec (zip) set comment in file /home/content/59/10215159/html/wp-content/uploads/backupbuddy_backups/backup-preachmusic_com-2013_04_26-full-d7tn3xy40h.zip
+1366977656|~|83.82|~|21.24|~|details|~|Saved meta data to zip comment.
+1366977656|~|83.86|~|21.24|~|details|~|Loading DB kicker in case database has gone away.
+1366977656|~|83.90|~|21.25|~|details|~|Database kicker database object class: `wpdb`.
+1366977656|~|83.93|~|21.25|~|details|~|Database Server has gone away, attempting to reconnect.
+1366977656|~|83.96|~|21.25|~|details|~|Database Server reconnection successful.
+1366977656|~|83.99|~|21.25|~|details|~|Database seems to still be connected.
+1366977656|~|84.02|~|21.25|~|details|~|Finished function `backup_zip_files`. Peak memory usage: 21.25 MB
+1366977656|~|84.05|~|21.25|~|details|~|-----
+1366977656|~|84.08|~|21.25|~|details|~|Scheduling Cron for `d7tn3xy40h`.
+1366977656|~|84.11|~|21.25|~|details|~|Loading DB kicker in case database has gone away.
+1366977656|~|84.13|~|21.25|~|details|~|Database kicker database object class: `wpdb`.
+1366977656|~|84.14|~|21.25|~|details|~|Database Server connection status verified.
+1366977656|~|84.16|~|21.25|~|details|~|Database seems to still be connected.
+1366977656|~|84.18|~|21.25|~|details|~|Scheduling next step to run at `1366977656` with cron tag `pb_backupbuddy_process_backup` and serial arguments `d7tn3xy40h`. If the backup stalls at this point check the Server Information page cron section to see if a step with these values is listed to determine if the problem is with scheduling the next step or the next step is scheduled but not running.
+1366977656|~|84.21|~|21.25|~|details|~|Next step scheduled in cron.
+1366977656|~|84.23|~|21.25|~|details|~|Completed step function `backup_zip_files`.
+1366977656|~|84.25|~|21.25|~|details|~|The next should run in a moment. If it does not please check for plugin conflicts and that the next step is scheduled in the cron on the Server Information page.
+1366978208|~|0.51|~|19.99|~|details|~|--- New PHP process.
+1366978208|~|0.54|~|19.99|~|details|~|Attempted to set PHP execution time to 7200
+1366978208|~|0.58|~|19.99|~|details|~|Reported PHP execution time - Configured: 30; Original: 30; Current: 7200
+1366978208|~|0.63|~|19.99|~|details|~|Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value
+1366978208|~|0.64|~|19.99|~|details|~|Reported PHP memory limits - Configured: 64M; Original: 128M; Current: 256M
+1366978208|~|0.65|~|19.99|~|message|~|Processing cron step for serial `d7tn3xy40h`...
+1366978208|~|0.73|~|21.52|~|details|~|Running process_backup() for serial `d7tn3xy40h`.
+1366978208|~|0.73|~|21.52|~|details|~|About to load fileoptions data.
+1366978208|~|0.76|~|21.57|~|details|~|Fileoptions data loaded.
+1366978208|~|0.79|~|21.58|~|details|~|Found next step to run: `integrity_check`.
+1366978208|~|0.79|~|21.58|~|details|~|Peak memory usage: 21.579 MB
+1366978208|~|0.81|~|21.58|~|details|~|-----
+1366978208|~|0.82|~|21.58|~|details|~|Starting step function `integrity_check` with args ``. Attempt #1.
+1366978208|~|0.84|~|21.58|~|message|~|Scanning and verifying backup file integrity.
+1366978209|~|0.85|~|21.58|~|details|~|Started backup_integrity_check() function.
+1366978209|~|0.86|~|21.58|~|details|~|Redirecting status logging temporarily.
+1366978209|~|1.38|~|21.59|~|details|~|Stopped temporary redirection of status logging.
+1366978209|~|1.38|~|21.59|~|details|~|Calculating integrity scan status,
+1366978209|~|1.39|~|21.59|~|details|~|Status: `pass`. Description: `All tests passed.`.
+1366978209|~|1.40|~|21.59|~|details|~|Getting file details such as size, timestamp, etc.
+1366978209|~|1.42|~|21.59|~|details|~|Saving backup file integrity check details.
+1366978209|~|1.43|~|21.60|~|details|~|Finished function `integrity_check`. Peak memory usage: 21.603 MB
+1366978209|~|1.45|~|21.60|~|details|~|-----
+1366978209|~|1.46|~|21.60|~|details|~|Scheduling Cron for `d7tn3xy40h`.
+1366978209|~|1.46|~|21.60|~|details|~|Loading DB kicker in case database has gone away.
+1366978209|~|1.48|~|21.62|~|details|~|Database kicker database object class: `wpdb`.
+1366978209|~|1.49|~|21.62|~|details|~|Database Server connection status verified.
+1366978209|~|1.49|~|21.62|~|details|~|Database seems to still be connected.
+1366978209|~|1.50|~|21.62|~|details|~|Scheduling next step to run at `1366978209` with cron tag `pb_backupbuddy_process_backup` and serial arguments `d7tn3xy40h`. If the backup stalls at this point check the Server Information page cron section to see if a step with these values is listed to determine if the problem is with scheduling the next step or the next step is scheduled but not running.
+1366978209|~|1.51|~|21.62|~|details|~|Next step scheduled in cron.
+1366978209|~|1.53|~|21.62|~|details|~|Completed step function `integrity_check`.
+1366978209|~|1.54|~|21.62|~|details|~|The next should run in a moment. If it does not please check for plugin conflicts and that the next step is scheduled in the cron on the Server Information page.
+1366978220|~|0.33|~|3.81|~|details|~|--- New PHP process.
+1366978220|~|0.34|~|3.81|~|details|~|Attempted to set PHP execution time to 7200
+1366978220|~|0.35|~|3.81|~|details|~|Reported PHP execution time - Configured: 30; Original: 30; Current: 7200
+1366978220|~|0.36|~|3.81|~|details|~|Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value
+1366978220|~|0.37|~|3.81|~|details|~|Reported PHP memory limits - Configured: 64M; Original: 128M; Current: 256M
+1366978220|~|0.38|~|3.81|~|message|~|Processing cron step for serial `d7tn3xy40h`...
+1366978220|~|0.40|~|4.07|~|details|~|Running process_backup() for serial `d7tn3xy40h`.
+1366978220|~|0.42|~|4.07|~|details|~|About to load fileoptions data.
+1366978220|~|0.43|~|4.09|~|details|~|Fileoptions data loaded.
+1366978220|~|0.46|~|4.11|~|details|~|Found next step to run: `post_backup`.
+1366978220|~|0.48|~|4.11|~|details|~|Peak memory usage: 4.107 MB
+1366978220|~|0.49|~|4.11|~|details|~|-----
+1366978220|~|0.50|~|4.11|~|details|~|Starting step function `post_backup` with args ``. Attempt #1.
+1366978220|~|0.51|~|4.11|~|message|~|Cleaning up after backup.
+1366978220|~|0.52|~|4.11|~|details|~|Removing temp data directory.
+1366978220|~|0.55|~|4.11|~|details|~|Trimming old archives (if needed).
+1366978220|~|0.61|~|4.11|~|details|~|Trimmed 0 old archives based on settings archive limits.
+1366978220|~|0.62|~|4.11|~|details|~|Final ZIP file size: 342.57 MB
+1366978220|~|0.63|~|4.11|~|action|~|archive_size^342.57 MB
+1366978220|~|0.64|~|4.11|~|message|~|Finished cleaning up.
+1366978220|~|0.64|~|4.11|~|action|~|archive_url^backup-preachmusic_com-2013_04_26-full-d7tn3xy40h.zip
+1366978220|~|0.65|~|4.11|~|details|~|Finished function `post_backup`. Peak memory usage: 4.111 MB
+1366978220|~|0.66|~|4.11|~|details|~|-----
+1366978220|~|0.67|~|4.11|~|details|~|No more backup steps remain. Finishing...

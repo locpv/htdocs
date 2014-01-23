@@ -1,0 +1,119 @@
+Version 2.4.1
+* Update view lightbox functionality to display for WP 3.5 custom galleries
+
+Version 2.4.0
+* Added soundcheck pagination function
+* Added soundcheck_get_image_carousel_items function to get image carousel items. Filterable.
+* Added soundcheck_get_events() function to get soundcheck events. Filterable.
+* Added soundcheck_get_events_category_filter() function to get event categories filter. Filterable.
+* Moved post-*.php files to a partials folder. Updated get_template_part() calls where needed.
+* Updated plugins file organization to replicate theme root
+* Updated screenshot
+* Updated events widget and loop to use new soundcheck_get_events() function.
+* Updated loop-blog.php query to be filterable using soundcheck_blog_query_args filter
+* Updated loop-hero.php query to be filterable using soundcheck_hero_query_args filter
+* Updated Cart66 meta box integration to allow for other fields to be added via soundcheck_cart66_products_mb_fields filter
+* Updated Cart66 styles to display size options when using shortcodes.
+* Removed Cart66 "Add to cart" button on Store page and replaced with link to single product page.
+* Removed Cart66 post-price.php file and created a function soundcheck_cart66_product_price_link()
+* Removed LESS files
+* Removed content-pagination.php in exchange for template tag soundcheck_pagination()
+
+Version 2.3.0
+* Added Archive template file
+* Removed Category template file
+* Updated archive page titles
+* Updated function locations and organization.
+* Home page is now set via a page template. Set this page as your front page via Settings > Reading > "Front page displays" option
+* Dutch translation files added. Hat tip to Han Hegeman
+
+Version 2.2.3
+* Updated embed soundcheck_embed_html() function to call the proper function for adding wmode parameter to youtube vids.
+
+Version 2.2.2
+* Updated header title to use a filter.
+* Updated video embed to account for Jetpack bypassing filters.
+* Updated audio track class to account for titles with quotes.
+
+Version 2.2.1
+* Update Featured Category widgets category and view more links alt attribute.
+* Fixed syntax error at end of file: inc/plugins/cart66/loop-products.php
+* Added language files
+
+Version 2.2.0
+* Updated the title function in header.php and removed soundcheck_wp_title()
+* Added Events per page option and navigation to events template.
+* Added theme-full image size.
+* Added option to set slide count for Hero Slider.
+* Updated and added default widget styles.
+* Move product meta box files and content into Cart66 folder location
+* Removed old CPT files and references.
+* Removed products menu as it was not used or needed.
+* Minor style additions and fixes.
+
+Version 2.1.5
+* Minor fix where the blog page template post title were not linking to single post pages.
+
+Version 2.1.4
+* A few more small fixes to sidebar checks and product type pages, this time with the primary sidebar.
+
+Version 2.1.3
+* Small CSS fix for audio player playlist display when using shortcode.
+* Fix products page sidebars to show when single post page sidebars do not have widgets
+
+Version 2.1.2
+* Update video filters
+* Fix track playlist option to work
+* Fix Cart66 Pro version not being recognized as a supported plugin.
+* Update logo to have max-width of 100% to not overflow content area.
+
+Version 2.1.1
+* Fix bug in Twitter widget where it wouldn't return tweets but rather an error message stating the Twitter API was taking to long to respond.
+
+Version 2.1.0
+* Restructured supported plugins functionality to be in includes/plugins/plugin-name
+* Refactored functions to check for plugins to use WP's is_plugin_active()
+* Refactored Audio Player shortcode to work with both shortcode and widget arguments.
+* Added option for audio tracks to have an external URL
+* Added option for audio tracks to be or not be playable via the playlist.
+* Added built in events template and widget as an alternative to GigPress.
+* Added pre_get_posts() function
+* Updated minor CSS styles
+* Updated WordPress custom background code to 3.4 version
+* Fixed some i18n translation strings
+* Fixed Secondary Sidebar to show Products widgets on Single Product pages.
+* Fixed various other small bugs.
+* Removed all query_posts() function calls in exchange for WP_Query()
+* Removed autoplay options from Audio Player widget and shortcode
+
+
+Version 2.0.5
+* Fixed shortcode to check for a supplied album id or fall back to post id
+
+Version 2.0.4
+* Fixed playlists showing on single post pages for sidebar widgets when the Theme Option to display the playlist by default was checked.
+* Fixed GigPress widget subscribe button styles for Safari
+* Fixed Cart66 quantity input text color when using the shortcode in a post
+* Fixed the horizontal scrollbar showing when viewing the playlist of the Audio Player widget.
+* Removed old reference to old admin.php
+* Removed old check for template-audio.php in soundcheck_localize_jplayer()
+* Renamed soundcheck_localize_jplayer() filter and function to soundcheck_localize_audio
+* Renamed soundcheck_product_body_class filter and function to soundcheck_featured_body_class
+* Updated featured sidebar checks to include template-full.php
+* Updated social sharing widget FB button code. Caused horizontal scroll bar in some browsers.
+
+Version 2.0.3
+* Fixed URI location reference of default-audio.mp3 in class-audio-tracks.php
+* Fixed text domain name in class-audio-tracks.php
+* Added widget styles for Recent Posts, Recent Categories, and Links
+
+Version 2.0.2
+* Fixed audio player bug not working in FF and Opera because of a small JS error.
+* Removed pagination from product loop as all products are shown by default.
+* Updated Featured Post widget to check for a content excerpt if a custom excerpt is not supplied
+
+Version 2.0.1
+* Fixed bug on home page showing product sidebar.
+
+Version 2.0.0
+* This is a complete rewrite! theme options, widgets, page templates, and possibly audio tracks may need to be updated. In order to move forward and advance with some sweet functionality, this was a necessary evil.

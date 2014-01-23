@@ -1,0 +1,910 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Download Manager Pro v3.2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-12 00:57+0600\n"
+"PO-Revision-Date: 2012-12-12 00:57+0600\n"
+"Last-Translator: \n"
+"Language-Team: Shaon <proshaon@yahoo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: BANGLADESH\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: E:\\xampp\\htdocs\\wpdmpro320\\wp-content\\plugins\\download-manager\n"
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file-front.php:91
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:441
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:170
+msgid "Link Template:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file-front.php:123
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:473
+msgid "Page Template:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file-front.php:270
+msgid "Attached Files"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file-front.php:345
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:677
+msgid "Upload file(s) from PC"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file-front.php:352
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:684
+msgid "Drop files here"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file-front.php:372
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:704
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/file-icon.php:35
+msgid "Allowed Files"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:261
+msgid "Edit Download Package"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:264
+msgid "Add New Download Package"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:280
+msgid "Enable permalink structure"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:382
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:2112
+msgid "Package Settings"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:386
+msgid "Link Label:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:391
+msgid "Stock&nbsp;Limit:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:396
+msgid "Download&nbsp;Limit:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:400
+msgid "Download&nbsp;Count:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:405
+msgid "Allow Access:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:433
+msgid "Individual File:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:436
+msgid "Enable Individual File Download"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:508
+msgid "Package Lock Settings"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:508
+msgid "This section will allow you to lock your download link using password, facebook like or google +1"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:510
+msgid "You can use one or more of following methods to lock your package download:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:513
+msgid "Enable Password Lock"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:518
+msgid "Password:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:522
+msgid "PW Usage Limit:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:523
+msgid "password"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:523
+msgid "Password will expire after it exceed this usage limit"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:530
+msgid "Enable Google +1 Lock"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:535
+msgid "URL for +1:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:541
+msgid "Enable Facebook Like Lock"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:546
+msgid "URL to Like:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:552
+msgid "Enable Email Lock"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:564
+msgid "Will ask for email (and checked custom data) before download"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:580
+msgid "Version & Dates"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:583
+msgid "Current Package Version:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:584
+msgid "Create Date:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:584
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:585
+msgid "Date format yyyy-mm-dd , If you keep empty, system will set current date"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:585
+msgid "Update Date:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:594
+msgid "Remote File URL"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:594
+msgid "Here you can use a file url for your download package<br/>like, http://www.domain.com/myfiles.zip<br/><b>If you use this option uploaded files for same package will be skipped.</b>"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:596
+msgid "Use Direct Link to download file"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:598
+msgid "Enable url protection"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:598
+msgid "If checked users will not know the actual download url.<br/><b>Important! </b>enabling this option may occur memory overflow error if you server cache memory size is smaller than file size"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:604
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:42
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:233
+msgid "Categories"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:666
+msgid "upload your icons on '/wp-content/plugins/download-manager/file-type-icons/' using ftp"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:817
+msgid "Preview image"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:842
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:54
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:66
+msgid "Actions"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:847
+msgid "Reset"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:849
+msgid "Update Package"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:849
+msgid "Create Package"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:854
+msgid "Package Data Saved Successfully, Now:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:855
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:230
+msgid "Manage Packages"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:855
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:231
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:154
+msgid "Add New"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:855
+msgid "Hide this message"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:905
+msgid "Must Enter a Package Title"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:906
+msgid "Must Select a Link Template"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:907
+msgid "Must Select a Page Template"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/add-new-file.php:910
+msgid "Submission Errors:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:42
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:123
+msgid "add new"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:52
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:64
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:192
+msgid "Category"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:53
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:65
+msgid "Embed Code"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:117
+msgid "You are about to delete all categories. Are you sure?"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:117
+msgid "Delete All Categories At Once!"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:144
+msgid "Title:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:148
+msgid "Description:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:151
+msgid "Parent:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:153
+msgid "Top Level Category"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:164
+msgid "Wrapper Class Name"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:189
+msgid "Required, Select a link template to apply to all packages uder this category"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:192
+msgid "Update"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/categories.php:192
+msgid "Create"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:229
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:230
+msgid "Download Manager"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:229
+msgid "Downloads"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:231
+msgid "Add New &lsaquo; Download Manager"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:232
+msgid "Importable Files &lsaquo; Download Manager"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:232
+msgid "Importable Files"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:233
+msgid "Categories &lsaquo; Download Manager"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:234
+msgid "Templates &lsaquo; Download Manager"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:234
+msgid "Templates"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:235
+msgid "Subscribers &lsaquo; Download Manager"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:235
+msgid "Subscribers"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:236
+msgid "Stats &lsaquo; Download Manager"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:236
+msgid "Stats"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:237
+msgid "Settings &lsaquo; Download Manager"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/download-manager.php:237
+msgid "Settings"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/file-icon.php:17
+msgid "Upload New Icon"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:155
+msgid "Edit"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:156
+msgid "New File"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:157
+msgid "All Files"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:158
+msgid "View Files"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:159
+msgid "Search Files"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:160
+msgid "No File Found"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:161
+msgid "No Files found in Trash"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:520
+msgid "Login"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:546
+msgid "Submit"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:610
+msgid "Please take any of following action to start download:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:614
+msgid "Download"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:614
+msgid "Please take any of the actions above to start download"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:1084
+msgid "Username is Empty!"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:1089
+msgid "Invalid Email Address!"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:1113
+msgid "Invalid Invoice ID. No such order found! However your account has been created successfully and login info sent to your mail address."
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:1126
+msgid "Email already exists."
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:1132
+msgid "User already exists."
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:2106
+msgid "Legends"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:2107
+msgid " Click on the icon to launch media manager to select or upload preview images"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:2107
+msgid " Reload link or page templates."
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/functions.php:2113
+msgid ""
+"<b>Link Label:</b> Label to show with download link, like: download now, get it now<br/>\n"
+"                                    <b>Password:</b> You can set single or multiple password for a package. In case of multiple password, each password have to be inside `[]`, like: [1234][456][789sf] and user will be able to download package using any one of them<br/>\n"
+"                                    <b>PW Usage Limit:</b> When you are using multiple password, then you may want set a limit, how many time user will be able to use a password, you can set the numaric value here, suppose `n`. So each password will expire after it used for `n` times.<br/>\n"
+"                                    <b>Stock Limit:</b> Should be a numeric value, suppose `9`. After package dowloaded for `9` times, the no one will able to download it anymore, will show 'out of stock' message<br/>\n"
+"                                    <b>Download Limit/user:</b> Set a numeric value here if you want to block user after a certain times of download for this package.<br/>\n"
+"                                    <b>Access</b>: Check the user roles, you want to enable to download this package, `All Visitors` will enable every one to download this package<br/>\n"
+"                                    <b>Link Template:</b> Sortcode will be rendered based on select link template.<br/>\n"
+"                                    <b>Page Template:</b> Package details page will be rendered based on selected page temaplte<br/>\n"
+"                                "
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/import.php:64
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files-front.php:100
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:132
+msgid "&laquo;"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/import.php:65
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files-front.php:101
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:133
+msgid "&raquo;"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/import.php:78
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files-front.php:114
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:146
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:24
+msgid "Manage Download Packages"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:25
+msgid "Simply Copy and Paste the embed code at anywhere in post contents"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:36
+msgid "Search"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:37
+msgid "Delete Permanently"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:39
+msgid "Apply"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:50
+msgid "Reset Search"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:68
+msgid "Type"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:69
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:82
+msgid "ID"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:70
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:83
+msgid "Package Title"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:72
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:85
+msgid "Password"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:73
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/list-files.php:86
+msgid "Access"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/stats.php:30
+msgid "Download Statistics"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/stats.php:34
+msgid "This Month"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/stats.php:35
+msgid "Package vs Date"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/stats.php:36
+msgid "Package vs User"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:37
+msgid "Create page template"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:37
+msgid "Create link template"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:42
+msgid "Link Templates"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:43
+msgid "Page Templates"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:44
+msgid "Template Editor"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:55
+msgid "Template"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:101
+msgid "Title"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:103
+msgid "Content:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:114
+msgid "Save Template"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:141
+msgid "Template Variables"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:151
+msgid "download link open as popup"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:152
+msgid "download link open as page"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:154
+msgid "Package details page url"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:155
+msgid "show package title"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:156
+msgid "show icon if available"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:157
+msgid "show preview thumbnail with specified width and height if available,l eg: [thumb_700x400] will show 700px &times; 400px image preview "
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:158
+msgid "returns preview thumbnail url with specified width and height if available,l eg: [thumb_url_700x400] will return 700px &times; 400px image preview url"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:160
+msgid "show additional preview thumbnails in gallery format, each image height and with will be same as specified, eg: [gallery_50x30] will show image gallery of additional previews and each image size will be 50px &timesx40px"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:161
+msgid "show previews in a slider type gallery"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:163
+msgid "show a short description of pacakge from description, eg: [excerpt_200] will show short description with first 200 chars of description"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:164
+msgid "package description"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:165
+msgid "download counter"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:166
+msgid "download url"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:167
+msgid "direct link to download using download link label"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:168
+msgid "number of downloads to expire download quota"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:169
+msgid "show list of all files in a package"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:170
+msgid "show package version"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:171
+msgid "show package create date"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:172
+msgid "show package update date"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/template-editor.php:173
+msgid "Show mp3 player with your page or link template."
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails-template.php:25
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails-template.php:29
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:35
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:39
+msgid "Emails"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails-template.php:30
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:40
+msgid "Email Template"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails-template.php:31
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:41
+msgid "Export CSV"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails-template.php:32
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:42
+msgid "Export Unique Emails"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:55
+msgid "Delete Selected"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:75
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:86
+msgid "Email"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:76
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:87
+msgid "Custom Fields"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:77
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:88
+msgid "Package Name"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:78
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm-emails.php:89
+msgid "Date"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/wpdm.php:77
+msgid "Package not found"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/modules/amazon-s3.php:2099
+msgid "Amazon S3 File Source"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/modules/canonical-url.php:147
+msgid "View Details &#187;"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/modules/server-dir-browser.php:78
+msgid "Add dir from server"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/modules/server-dir-browser.php:84
+msgid "Open Dir Browser"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/modules/server-file-browser.php:86
+msgid "Add file(s) from server"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/modules/widgets.php:89
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/modules/widgets.php:169
+msgid "Number of packages to show:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:25
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:13
+msgid "Allow only"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:29
+msgid "and upper level users to administrate this plugin"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:34
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:22
+msgid "Multi-User"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:36
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:24
+msgid "Disabled"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:37
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:25
+msgid "Enabled"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:39
+msgid "if multi-user enabled, only users with role \"administrator\" will able to see/mamane all wpdm packages, all other allowed users will able to manage their own  packages only"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:40
+msgid "If multi-user disabled, all allowed users will able to see, manage all wpdm packages"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:44
+msgid "Custom WPDM Super Admin"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:46
+msgid "Incase, if you want to allow any specific user(s) to administrate wpdm, enter his/her usernames above, usernames should separated by comma (\",\")."
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:52
+msgid "If you like, you may enter custom structures for your wpdm category and package URLs here. For example, using packages as your category base would make your category links like http://example.org/packages/category-slug/. If you leave these blank the defaults will be used."
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:56
+msgid "WPDM Category URL Base"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:61
+msgid "WPDM URL Pacakge Base"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:73
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:32
+msgid "Enable short-code"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:75
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:34
+msgid "Everywhere"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:76
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:35
+msgid "Only Single Page/Post"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:84
+msgid "Default Page Template"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:91
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:45
+msgid "Custom Page Template"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:93
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:47
+msgid "How to build custom page template?"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:94
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:48
+msgid "How to use integrated page template?"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:99
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:67
+msgid "File Browser Root:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:99
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:67
+msgid "Root dir for server file browser.<br/><b>*Don't add tailing slash (/)</b>"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:103
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:71
+msgid "Messages:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:106
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:74
+msgid "Permission Denied Message:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:109
+msgid "Login Required Message <em>( use short-code [loginform] inside message box to integrate login form )</em>:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/basic.php:111
+msgid "Show Only Login Button Instead of Login Required Message"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:17
+msgid "and upper level users to use this plugin"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:44
+msgid "Integrated Page Template"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:53
+msgid "Link Thumb Size"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:53
+msgid "Thumbnail size for main previews which will be<br/>displayed by shortcode <b>[thumb]</b> with link template."
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:56
+msgid "Page Thumb Size"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:56
+msgid "Thumbnail size for main previews which will be displayed<br/>by shortcode <b>[thumb]</b> with page template."
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:59
+msgid "Gallery Thumb Size"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:59
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:63
+msgid "Thumbnail size for additional previews<br/>which will be displayed by shortcode <b>[athumbs]</b>."
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:63
+msgid "Widget Thumb Size"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/settings/emails.php:77
+msgid "Login Required Message:"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/stats/current-month.php:31
+msgid "Download statistics for"
+msgstr ""
+
+#: E:\xampp\htdocs\wpdmpro320\wp-content\plugins\download-manager/stats/pvupd.php:83
+#, php-format
+msgid "Displaying %s&#8211;%s of %s users"
+msgstr ""
+

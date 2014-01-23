@@ -1,0 +1,6 @@
+1366977422|~|68.73|~|4.27|~|error|~|Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+1366977422|~|68.75|~|4.27|~|error|~|Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+1366977422|~|68.77|~|4.27|~|error|~|Failed function `backup_zip_files`. Backup terminated.
+1366977422|~|68.81|~|4.27|~|error|~|Sending email error notification. Subject: `BackupBuddy Error - http://preachmusic.com`; body: `An error occurred with BackupBuddy v3.3.0.1 on Fri, 26 Apr 13 11:57:02 +0000 for the site http://preachmusic.com. Error details:
+
+One or more backup steps reported a failure. Backup failure running function `backup_zip_files` with the arguments `` with backup serial `1gb2zmhemk`. Please run a manual backup of the same type to verify backups are working properly.`; recipient(s): `preachmuzak@gmail.com`.

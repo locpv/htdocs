@@ -3,7 +3,7 @@
 Plugin Name: WP Twitter widget by rYokiNG
 Plugin URI: http://ryokingz.blogspot.com/
 Description: Create twitter widget easy fix twitter api 1.1 
-Version: 1.0
+Version: 1.1
 Author: rYokiNG
 Author URI: http://ryokingz.blogspot.com/
 Tags: twitter, twitter widget, twitter feeds, twitter timeline, twitter api, twitter 1.1
@@ -76,6 +76,7 @@ class WP_Twitter_Widget extends WP_Widget {
 		$showheader = $instance['showheader'] ? 1 : 0;
 		$showdesc = $instance['showdesc'] ? 1 : 0;
 		$timeago = $instance['timeago'] ? 1 : 0; 
+		$autostyle = $instance['autostyle'] ? 1 : 0; 
 		
 		echo $before_widget; 
 		
@@ -88,7 +89,7 @@ class WP_Twitter_Widget extends WP_Widget {
 		}
 		
 		if ( !empty( $title ) ) { echo $before_title . $title . $after_title; }  ?>   
-			<div class="wp_twitter_widget">
+			<div class="wp_twitter_widget<?php if($autostyle) { ?> wptw_addborder<?php } ?>">
             <?php 
 			if(count($content) > 0) {
 			?>
@@ -176,6 +177,7 @@ class WP_Twitter_Widget extends WP_Widget {
 		$instance['showheader'] = $new_instance['showheader'] ? 1 : 0;
 		$instance['timeago'] = $new_instance['timeago'] ? 1 : 0;
 		$instance['showdesc'] = $new_instance['showdesc'] ? 1 : 0; 
+		$instance['autostyle'] = $new_instance['autostyle'] ? 1 : 0; 
 		
 		return $instance;
 	}
@@ -206,7 +208,8 @@ class WP_Twitter_Widget extends WP_Widget {
 							   'screenname' => $this->sn, 
 							   'count' => 10, 
 							   'showheader' => 1,
-							   'timeago' => 1
+							   'timeago' => 1,
+							   'autostyle' => 1
 						) );
 		$title = strip_tags($instance['title']);
 		$screenname = strip_tags($instance['screenname']); 
@@ -214,7 +217,7 @@ class WP_Twitter_Widget extends WP_Widget {
 		$showheader = $instance['showheader'] ? 'checked="checked"' : '';
 		$timeago = $instance['timeago'] ? 'checked="checked"' : ''; 
 		$showdesc = $instance['showdesc'] ? 'checked="checked"' : ''; 
-		
+		$autostyle = $instance['autostyle'] ? 'checked="checked"' : '';
 ?>
 		<p><label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:'); ?></label>
 		<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>" /></p>
@@ -238,7 +241,10 @@ class WP_Twitter_Widget extends WP_Widget {
         
 		<br/>   
         <input class="checkbox" type="checkbox" <?php echo $timeago; ?> id="<?php echo $this->get_field_id('timeago'); ?>" name="<?php echo $this->get_field_name('timeago'); ?>" value="1"/> 
-        <label for="<?php echo $this->get_field_id('timeago'); ?>"><?php _e('Human readable time format'); ?></label> 
+        <label for="<?php echo $this->get_field_id('timeago'); ?>"><?php _e('Human readable time format'); ?></label>			
+        <br/>   
+        <input class="checkbox" type="checkbox" <?php echo $autostyle; ?> id="<?php echo $this->get_field_id('autostyle'); ?>" name="<?php echo $this->get_field_name('autostyle'); ?>" value="1"/> 
+        <label for="<?php echo $this->get_field_id('autostyle'); ?>"><?php _e('Automatic format'); ?></label>  
 		</p> 
         <?php 
 		/* 

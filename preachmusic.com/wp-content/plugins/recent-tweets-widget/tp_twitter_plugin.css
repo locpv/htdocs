@@ -2,6 +2,7 @@
 .tp_recent_tweets {
 	float: left;
 	clear: left;
+
 }
 
 .tp_recent_tweets  li {
@@ -13,6 +14,7 @@
 	float: left;
 	clear: left;
 	line-height: 20px;
+	list-style-type: none;
 }
 
 .tp_recent_tweets  li a {

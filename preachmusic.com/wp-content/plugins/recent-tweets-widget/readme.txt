@@ -3,12 +3,12 @@ Contributors: themeprince
 Donate link: http://themeprince.com/
 Tags: recent tweets, twitter widget, twitter api v1.1, cache
 Requires at least: 3.4.1
-Tested up to: 3.5.1
-Stable tag: 1.0
+Tested up to: 3.6.1
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Recent Tweets Widget WordPress plugin for new Twitter API v1.1 with cache, so you won't be rate limited at Twitter!
+Recent Tweets Widget plugin for new Twitter API v1.1 with CACHE, so you won't be rate limited at Twitter!
 
 == Description ==
 
@@ -38,6 +38,18 @@ You will need to visit [this link](https://dev.twitter.com/apps/ "Twitter"), sig
 2. How it looks on frontend page
 
 == Changelog ==
+
+= 1.3 =
+* Fix for special 4 byte UTF8 characters
+
+= 1.2 =
+* Header output issue fix
+
+= 1.1 =
+* Some styling issues were fixed
+* Now the script checks if a function already exists
+* Special function naming are applied so function dupes are also prevented
+* Exclude replies option has been added
 
 = 1.0 =
 * The first version of this plugin! Enjoy! :)

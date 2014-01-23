@@ -1,15 +1,18 @@
 .widget-area .widget .wp_twitter_widget a { color:#00ACEE; }
 .wp_twitter_widget .twitter_user { color:#0084B4; }
 .wptw_header .profile_image { float:left; height:50px; padding-right:8px; }
-.wptw_header .status_display { line-height:18px; }
+.wptw_header .status_display { }
 .wptw_header .status_name a { color:black; font-weight:bold; }
 .wptw_header .status_screenname { font-size:12px; color:#888; }
-.wptp_description { clear:both; padding:5px 0; line-height:1.84615; }
+.wptp_description { clear:both; padding:5px 0; }
 .wp_twitter_widget .widget_twitter { list-style:none; }
-.wptw_footer { padding:8px 0; }
+.wptw_footer { padding:8px 0; display:none; }
 .wp_twitter_widget .widget_twitter li, .wptw_footer { border-top:1px solid #F8F8F8; }
 .wp_twitter_widget .twitter_meta { }
 .widget_twitter.scroll { overflow-y: scroll; height: 300px; }
 .wp_twitter_widget .right { float:right; }
 .wp_twitter_widget .left { float:left; }
 .profile_image img { border:0; }
+.wptw_addborder { border:10px solid #D9EEF3; padding:5px; font-family:Arial; } 
+.wptw_addborder .wptp_description { line-height:12px; font-size:12px; }
+.wptw_addborder ul.widget_twitter li { border-bottom: 1px dashed #8E8D8B; font-size: 12px; line-height: 12px; padding: 5px 0; }

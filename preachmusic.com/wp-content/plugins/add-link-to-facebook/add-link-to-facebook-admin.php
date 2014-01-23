@@ -2,7 +2,7 @@
 
 /*
 	Support class Add Link to Facebook admin
-	Copyright (c) 2011-2013 by Marcel Bokhorst
+	Copyright (c) 2011-2014 by Marcel Bokhorst
 */
 
 function al2fb_render_admin($al2fb)
@@ -568,10 +568,10 @@ function al2fb_render_admin($al2fb)
 					_e('This option is only available in', c_al2fb_text_domain);
 					echo ' <a href="http://www.faircode.eu/al2fbpro/?url=' . WPAL2Int::Redirect_uri() . '" target="_blank">Add Link to Facebook Pro</a>';
 					echo '</strong>';
-					$mu = WPAL2Int::Get_multiple_url();
-					if ($mu)
-						echo '<p><span style="color: red;"><strong>' . htmlspecialchars($mu, ENT_QUOTES, $charset) . '</strong></span></p>';
 				}
+				$mu = WPAL2Int::Get_multiple_url();
+				if ($mu)
+					echo '<p><span style="color: red;"><strong>' . htmlspecialchars($mu, ENT_QUOTES, $charset) . '</strong></span></p>';
 ?>
 				</td></tr>
 <?php
@@ -694,16 +694,8 @@ function al2fb_render_admin($al2fb)
 		<input type="radio" name="<?php echo c_al2fb_meta_privacy; ?>" value=""<?php echo $priv_none; ?>><?php _e('Default', c_al2fb_text_domain); ?><br />
 		<input type="radio" name="<?php echo c_al2fb_meta_privacy; ?>" value="EVERYONE"<?php echo $priv_everyone; ?>><?php _e('Everyone', c_al2fb_text_domain); ?><br />
 		<input type="radio" name="<?php echo c_al2fb_meta_privacy; ?>" value="ALL_FRIENDS"<?php echo $priv_friends; ?>><?php _e('All friends', c_al2fb_text_domain); ?><br />
-		<input type="radio" name="<?php echo c_al2fb_meta_privacy; ?>" value="NETWORKS_FRIENDS"<?php echo $priv_network; ?>><?php _e('Network friends', c_al2fb_text_domain); ?><br />
 		<input type="radio" name="<?php echo c_al2fb_meta_privacy; ?>" value="FRIENDS_OF_FRIENDS"<?php echo $priv_fof; ?>><?php _e('Friends of friends', c_al2fb_text_domain); ?><br />
 		<input type="radio" name="<?php echo c_al2fb_meta_privacy; ?>" value="SELF"<?php echo $priv_me; ?>><?php _e('Only me', c_al2fb_text_domain); ?><br />
-		<input type="radio" name="<?php echo c_al2fb_meta_privacy; ?>" value="SOME_FRIENDS"<?php echo $priv_some; ?>><?php _e('Some friends:', c_al2fb_text_domain); ?><br />
-	</td></tr>
-	<tr valign="top"><th scope="row">
-		<label for="al2fb_some_friends"><?php _e('Some friends:', c_al2fb_text_domain); ?></label>
-	</th><td>
-		<input id="al2fb_some_friends" class="al2fb_text" name="<?php echo al2fb_some_friends; ?>" type="text" value="<?php  echo htmlentities(get_user_meta($user_ID, c_al2fb_meta_some_friends, true), ENT_QUOTES, get_bloginfo('charset')); ?>" />
-		<br /><span class="al2fb_explanation"><?php _e('Comma-separated list of Facebook user IDs and friend list IDs', c_al2fb_text_domain); ?></span>
 	</td></tr>
 
 	</table>

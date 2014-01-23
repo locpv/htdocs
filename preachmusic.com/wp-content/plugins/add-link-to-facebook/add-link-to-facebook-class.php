@@ -2,13 +2,13 @@
 
 /*
 	Support class Add Link to Facebook plugin
-	Copyright (c) 2011-2013 by Marcel Bokhorst
+	Copyright (c) 2011-2014 by Marcel Bokhorst
 */
 
 /*
 	GNU General Public License version 3
 
-	Copyright (c) 2011-2013 Marcel Bokhorst
+	Copyright (c) 2011-2014 Marcel Bokhorst
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -104,7 +104,7 @@ if (!class_exists('WPAL2Facebook')) {
 			add_filter('comments_array', array(&$this, 'Comments_array'), 10, 2);
 			add_filter('get_comments_number', array(&$this, 'Get_comments_number'), 10, 2);
 			add_filter('comment_class', array(&$this, 'Comment_class'));
-			add_filter('get_avatar', array(&$this, 'Get_avatar'), 10, 5);
+			add_filter('get_avatar', array(&$this, 'Get_avatar'), 11, 5);
 
 			// Shortcodes
 			add_shortcode('al2fb_likers', array(&$this, 'Shortcode_likers'));
@@ -1065,7 +1065,7 @@ if (!class_exists('WPAL2Facebook')) {
 					if (get_user_meta($user_ID, c_al2fb_meta_fb_comments, true)) {
 						$count = 0;
 						$fb_comments = WPAL2Int::Get_comments_or_likes($post, false);
-						if (!empty($fb_comments) && !empty($fb_comments->data))
+						if ($fb_comments && $fb_comments->data)
 							$count = count($fb_comments->data);
 						echo '<span>' . $count . ' ' . __('comments', c_al2fb_text_domain) . '</span><br />';
 					}
@@ -1075,7 +1075,7 @@ if (!class_exists('WPAL2Facebook')) {
 						get_user_meta($user_ID, c_al2fb_meta_fb_likes, true)) {
 						$count = 0;
 						$fb_likes = WPAL2Int::Get_comments_or_likes($post, true);
-						if (!empty($fb_likes) && !empty($fb_likes->data))
+						if ($fb_likes && $fb_likes->data)
 							$count = count($fb_likes->data);
 						echo '<span>' . $count . ' ' . __('likes', c_al2fb_text_domain) . '</span><br />';
 					}
@@ -1717,7 +1717,7 @@ if (!class_exists('WPAL2Facebook')) {
 
 		// Filter messages
 		function Filter_feed($fb_messages) {
-			if (isset($fb_messages) && isset($fb_messages->data))
+			if ($fb_messages && $fb_messages->data)
 				for ($i = 0; $i < count($fb_messages->data); $i++)
 					if ($fb_messages->data[$i]->type != 'status')
 						unset($fb_messages->data[$i]);
@@ -2211,7 +2211,7 @@ if (!class_exists('WPAL2Facebook')) {
 			if ($user_ID && !self::Is_excluded($post) && !WPAL2Int::social_in_excerpt($user_ID)) {
 				$charset = get_bloginfo('charset');
 				$fb_likes = WPAL2Int::Get_comments_or_likes($post, true);
-				if ($fb_likes)
+				if ($fb_likes && $fb_likes->data) {
 					foreach ($fb_likes->data as $fb_like) {
 						if (!empty($likers))
 							$likers .= ', ';
@@ -2223,9 +2223,10 @@ if (!class_exists('WPAL2Facebook')) {
 							$likers .= htmlspecialchars($fb_like->name, ENT_QUOTES, $charset);
 					}
 
-				if (!empty($likers)) {
-					$likers .= ' <span class="al2fb_liked">' . _n('liked this post', 'liked this post', count($fb_likes->data), c_al2fb_text_domain) . '</span>';
-					$likers = '<div class="al2fb_likers">' . $likers . '</div>';
+					if (!empty($likers)) {
+						$likers .= ' <span class="al2fb_liked">' . _n('liked this post', 'liked this post', count($fb_likes->data), c_al2fb_text_domain) . '</span>';
+						$likers = '<div class="al2fb_likers">' . $likers . '</div>';
+					}
 				}
 			}
 			return $likers;
@@ -2237,7 +2238,7 @@ if (!class_exists('WPAL2Facebook')) {
 			if ($user_ID && !self::Is_excluded($post) && !WPAL2Int::social_in_excerpt($user_ID)) {
 				$link_id = get_post_meta($post->ID, c_al2fb_meta_link_id, true);
 				$fb_likes = WPAL2Int::Get_comments_or_likes($post, true);
-				if ($fb_likes && count($fb_likes->data) > 0)
+				if ($fb_likes && $fb_likes->data && count($fb_likes->data) > 0)
 					return '<div class="al2fb_like_count"><a href="' . WPAL2Int::Get_fb_permalink($link_id) . '" rel="nofollow">' . count($fb_likes->data) . ' ' . _n('liked this post', 'liked this post', count($fb_likes->data), c_al2fb_text_domain) . '</a></div>';
 			}
 			return '';
@@ -2282,7 +2283,7 @@ if (!class_exists('WPAL2Facebook')) {
 				// Get Facebook comments
 				if (self::Is_recent($post) && get_user_meta($user_ID, c_al2fb_meta_fb_comments, true)) {
 					$fb_comments = WPAL2Int::Get_comments_or_likes($post, false);
-					if ($fb_comments) {
+					if ($fb_comments && $fb_comments->data) {
 						// Get WordPress comments
 						$stored_comments = get_comments('post_id=' . $post->ID);
 						$stored_comments = array_merge($stored_comments,
@@ -2361,6 +2362,21 @@ if (!class_exists('WPAL2Facebook')) {
 											'user_id' => 0
 										);
 
+										// Assign parent comment id
+										if (!empty($fb_comment->parent->id)) {
+											$parent_args = array(
+												'post_id' => $post_ID,
+												'meta_query' => array(array(
+													'key' => c_al2fb_meta_fb_comment_id,
+													'value' => $fb_comment->parent->id
+												))
+											);
+											$parent_comments_query = new WP_Comment_Query;
+											$parent_comments = $parent_comments_query->query($parent_args);
+											if (isset($parent_comments[0]))
+												$commentdata['comment_parent'] = $parent_comments[0]->comment_ID;
+										}
+
 										$commentdata = apply_filters('al2fb_preprocess_comment', $commentdata, $post);
 
 										// Copy Facebook comment to WordPress database
@@ -2424,7 +2440,7 @@ if (!class_exists('WPAL2Facebook')) {
 					$post->ping_status == 'open' &&
 					get_user_meta($user_ID, c_al2fb_meta_fb_likes, true)) {
 					$fb_likes = WPAL2Int::Get_comments_or_likes($post, true);
-					if ($fb_likes)
+					if ($fb_likes && $fb_likes->data)
 						foreach ($fb_likes->data as $fb_like) {
 							// Create new virtual comment
 							$link = WPAL2Int::Get_fb_profilelink($fb_like->id);
@@ -2531,7 +2547,7 @@ if (!class_exists('WPAL2Facebook')) {
 				// Comment count
 				if (get_user_meta($user_ID, c_al2fb_meta_fb_comments, true)) {
 					$fb_comments = WPAL2Int::Get_comments_or_likes($post, false);
-					if ($fb_comments) {
+					if ($fb_comments && $fb_comments->data) {
 						$stored_comments = get_comments('post_id=' . $post->ID);
 						$stored_comments = array_merge($stored_comments,
 							get_comments('status=spam&post_id=' . $post->ID));
@@ -2573,10 +2589,11 @@ if (!class_exists('WPAL2Facebook')) {
 				// Like count
 				if (self::Is_recent($post) &&
 					$post->ping_status == 'open' &&
-					get_user_meta($user_ID, c_al2fb_meta_fb_likes, true))
+					get_user_meta($user_ID, c_al2fb_meta_fb_likes, true)) {
 					$fb_likes = WPAL2Int::Get_comments_or_likes($post, true);
-				if (!empty($fb_likes))
-					$count += count($fb_likes->data);
+					if ($fb_likes && $fb_likes->data)
+						$count += count($fb_likes->data);
+				}
 			}
 
 			return $count;
@@ -2592,6 +2609,8 @@ if (!class_exists('WPAL2Facebook')) {
 
 		// Get FB picture as avatar
 		function Get_avatar($avatar, $id_or_email, $size, $default) {
+			$fb_picture_url = null;
+
 			if (is_object($id_or_email)) {
 				$comment = $id_or_email;
 				if ($comment->comment_agent == 'AL2FB' &&
@@ -2601,19 +2620,28 @@ if (!class_exists('WPAL2Facebook')) {
 					$id = explode('id=', $comment->comment_author_url);
 					if (count($id) == 2) {
 						$fb_picture_url = WPAL2Int::Get_fb_picture_url_cached($id[1], 'normal');
-
-						// Build avatar image
-						if ($fb_picture_url) {
-							$avatar = '<img alt="' . esc_attr($comment->comment_author) . '"';
-							$avatar .= ' src="' . $fb_picture_url . '"';
-							$avatar .= ' class="avatar avatar-' . $size . ' photo al2fb"';
-							$avatar .= ' height="' . $size . '"';
-							$avatar .= ' width="' . $size . '"';
-							$avatar .= ' />';
-						}
 					}
 				}
 			}
+			else if (stripos($id_or_email,'@facebook.com') !== false) {
+				$id_or_email = strtolower($id_or_email);
+
+				// Get picture url
+				$id = explode('@facebook.com', $id_or_email);
+				if (count($id) == 2)
+					$fb_picture_url = WPAL2Int::Get_fb_picture_url_cached($id[0], 'normal');
+			}
+
+			// Build avatar image
+			if ($fb_picture_url) {
+				$avatar = '<img alt="' . esc_attr($comment->comment_author) . '"';
+				$avatar .= ' src="' . $fb_picture_url . '"';
+				$avatar .= ' class="avatar avatar-' . $size . ' photo al2fb"';
+				$avatar .= ' height="' . $size . '"';
+				$avatar .= ' width="' . $size . '"';
+				$avatar .= ' />';
+			}
+
 			return $avatar;
 		}
 
@@ -2682,14 +2710,16 @@ if (!class_exists('WPAL2Facebook')) {
 					// Get Facebook comments
 					if (get_user_meta($user_ID, c_al2fb_meta_fb_comments, true)) {
 						$fb_comments = WPAL2Int::Get_comments_or_likes($post, false, false);
-						$comments += count($fb_comments->data);
+						if ($fb_comments && $fb_comments->data)
+							$comments += count($fb_comments->data);
 					}
 
 					// Get likes
 					if ($post->ping_status == 'open' &&
 						get_user_meta($user_ID, c_al2fb_meta_fb_likes, true)) {
 						$fb_likes = WPAL2Int::Get_comments_or_likes($post, true, false);
-						$likes += count($fb_likes->data);
+						if ($fb_likes && $fb_likes->data)
+							$likes += count($fb_likes->data);
 					}
 				}
 			}

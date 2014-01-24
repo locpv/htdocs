@@ -104,6 +104,7 @@
 	</div><!-- #header-container -->
 
 	<div id="main" role="main">
+		<?php echo dfads( 'groups=9' ); ?> <!-- #datafeedr.com ads -->
 		<?php 
 		/**
 		 * Primary Sidebar Widgets
